@@ -12,15 +12,9 @@ Este módulo introduce el uso de lenguajes de marcas como **HTML** y hojas de es
 
 ## 📝 Apuntes y teoría
 
-- 📄 [Unidad 1: Instalaciones y entorno](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad1+Lenguajes.pdf)
-- 📄 [Unidad 2: HTML5](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad2+Lenguajes.pdf)
-- 📄 [Unidad 3: XML, DTD y Schemas](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad3+Lenguajes.pdf)
-- 📄 [Unidad 4: CSS3](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad4+Lenguajes.pdf)
-- 📄 [Unidad 5: Flex](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad5+Lenguajes.pdf)
-- 📄 [Unidad 6: Grid](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad6+Lenguajes.pdf)
-- 📄 [Unidad 7: Variables CSS](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad7+Lenguajes.pdf)
-- 📄 [Unidad 8: Animaciones](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad8+Lenguajes.pdf)
-- 📄 [Unidad 9: JavaScript](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/DAM/Tercer+trimestre/0373Unidad9DAMDAW.pdf)
+
+
+---
 
 ### 🔹 Materiales del profesorado
 
