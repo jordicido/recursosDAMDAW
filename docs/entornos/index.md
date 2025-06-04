@@ -33,7 +33,7 @@ Este módulo introduce las herramientas y prácticas de los **Entornos de Desarr
 
 ### 🔹 Materiales del profesorado
 
-- [WEBSITE Apuntes - Jordi](https://jordicido.github.io/jordicido-fp/EDD/)
+- [WEBSITE Apuntes Entornos - Jordi](https://jordicido.github.io/jordicido-fp/EDD/)
 
 ---
 
