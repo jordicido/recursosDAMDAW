@@ -968,42 +968,40 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 <p><em>Ejemplo: Sistema de Gestión para una Pajarería</em></p>
 <p><u><strong>Entidades y clases</strong> <em>(ejemplo)</em></u></p>
 <ol>
-<li>
-<p>Cliente</p>
-<p><code>java
-public class Cliente {
-    private String
-            nombre; private
-    String dni; private
-    String telefono;
-    private String
-            email;
-    // Constructor, getters y setters
-}</code></p>
-</li>
-<li>
-<p>Pájaro (lo que se vende)</p>
-<p><code>java
-public class Pajaro {
-    private String
-            especie; private
-    String color; private
-    double precio;
-    // Constructor, getters y setters
-}</code></p>
-</li>
-<li>
-<p>Venta</p>
-<p><code>java
-public class Venta {
-    private Cliente
-            cliente;
-    private ArrayList&lt;Pajaro&gt; lineasDeVenta; // cada venta contiene
-    varios pájaros private String fecha;
-    // Constructor, método para añadir pájaros, calcular total, etc.
-}</code></p>
-</li>
+<li>Cliente</li>
 </ol>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Cliente</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">            </span><span class="n">nombre</span><span class="p">;</span><span class="w"> </span><span class="kd">private</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">dni</span><span class="p">;</span><span class="w"> </span><span class="kd">private</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">telefono</span><span class="p">;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">            </span><span class="n">email</span><span class="p">;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="c1">// Constructor, getters y setters</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">}</span>
+</span></code></pre></div>
+<ol>
+<li>Pájaro (lo que se vende)</li>
+</ol>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Pajaro</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">            </span><span class="n">especie</span><span class="p">;</span><span class="w"> </span><span class="kd">private</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">color</span><span class="p">;</span><span class="w"> </span><span class="kd">private</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">precio</span><span class="p">;</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="c1">// Constructor, getters y setters</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="p">}</span>
+</span></code></pre></div>
+<ol>
+<li>Venta</li>
+</ol>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Venta</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">Cliente</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">            </span><span class="n">cliente</span><span class="p">;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Pajaro</span><span class="o">&gt;</span><span class="w"> </span><span class="n">lineasDeVenta</span><span class="p">;</span><span class="w"> </span><span class="c1">// cada venta contiene</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="n">varios</span><span class="w"> </span><span class="n">pájaros</span><span class="w"> </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">fecha</span><span class="p">;</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="c1">// Constructor, método para añadir pájaros, calcular total, etc.</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="p">}</span>
+</span></code></pre></div>
 <p><u><strong>Funcionalidades obligatorias del sistema</strong></u></p>
 <table>
 <thead>
@@ -1042,14 +1040,14 @@ public class Venta {
 </tbody>
 </table>
 <p><u><strong>Estructura del menú principal</strong></u></p>
-<pre><code>=== MENÚ PRINCIPAL ===
-1. Gestión de clientes
-2. Gestión de pájaros
-3. Realizar venta
-4. Mostrar ventas
-5. Salir
-</code></pre>
-<p>Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).</p>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>=== MENÚ PRINCIPAL ===
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>1. Gestión de clientes
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>2. Gestión de pájaros
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>3. Realizar venta
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>4. Mostrar ventas
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>5. Salir
+</span></code></pre></div>
+Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).</p>
 <p><u><strong>Conceptos que se evalúan</strong></u></p>
 <table>
 <thead>
