@@ -16,7 +16,7 @@ theme:
         name: Switch to light mode
 
 # para poder poner código de programación:
-markdown_extensions: 
+markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_numbers: true
@@ -27,9 +27,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-        - name: admonition
-          class: admonition
-          format: !!python/name:pymdownx.superfences.fence_admonition_format
         - name: math
           class: arithmatex
           format: !!python/name:pymdownx.arithmatex.fence_math_format
+  - pymdownx.admonition # Para usar bloques de admonición
+  - pymdownx.details    # Necesario para que las admoniciones sean colapsables
