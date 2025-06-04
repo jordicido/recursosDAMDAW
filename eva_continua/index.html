@@ -304,11 +304,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#proyecto-programacion-java" class="md-nav__link">
+  <a href="#proyecto-programacion-java-1-gestion-de-clientes-para-un-negocio" class="md-nav__link">
     <span class="md-ellipsis">
-      ☕ Proyecto Programacion Java
+      ☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      TÍTULO DEL PROYECTO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -877,11 +892,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#proyecto-programacion-java" class="md-nav__link">
+  <a href="#proyecto-programacion-java-1-gestion-de-clientes-para-un-negocio" class="md-nav__link">
     <span class="md-ellipsis">
-      ☕ Proyecto Programacion Java
+      ☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#titulo-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      TÍTULO DEL PROYECTO
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -958,36 +988,367 @@
 <h1 id="evaluacion-continua-damdaw-1a-entrega">EVALUACIÓN CONTINUA DAM/DAW - 1ª ENTREGA</h1>
 <p>La <strong>Evaluación Continua</strong> es una opción voluntaria para el alumnado que busca distribuir el esfuerzo a lo largo del curso. Esta modalidad aportará un 40% de la calificación final del módulo. 
 La primera entrega de actividades está prevista para principios de septiembre; la fecha exacta será confirmada próximamente.</p>
-<hr />
-<h2 id="proyecto-programacion-java">☕ Proyecto Programacion Java</h2>
+<h2 id="proyecto-programacion-java-1-gestion-de-clientes-para-un-negocio">☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio</h2>
+<p>Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)</p>
 <ul>
-<li>📄 <a href="https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view">Proyecto Java</a> - Entrega Inicio Septiembre (Fecha por determinar aún)</li>
+<li>📄 <a href="https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view"><strong>PDF Proyecto Java</strong></a> - Documento PDF del Proyecto 1</li>
+</ul>
+<hr />
+<h3 id="titulo-del-proyecto"><u><strong>TÍTULO DEL PROYECTO</strong></u></h3>
+<p><em>Ejemplo: Sistema de Gestión para una Pajarería</em></p>
+<p><u><strong>Entidades y clases</strong> <em>(ejemplo)</em></u></p>
+<ol>
+<li>
+<p>Cliente</p>
+<p><code>java
+public class Cliente {
+private String
+nombre; private
+String dni; private
+String telefono;
+private String
+email;
+// Constructor, getters y setters
+}</code></p>
+</li>
+<li>
+<p>Pájaro (lo que se vende)</p>
+<p><code>java
+public class Pajaro {
+private String
+especie; private
+String color; private
+double precio;
+// Constructor, getters y setters
+}</code></p>
+</li>
+<li>
+<p>Venta</p>
+<p><code>java
+public class Venta {
+private Cliente
+cliente;
+private ArrayList&lt;Pajaro&gt; lineasDeVenta; // cada venta contiene
+varios pájaros private String fecha;
+// Constructor, método para añadir pájaros, calcular total, etc.
+}</code></p>
+</li>
+</ol>
+<p><u><strong>Funcionalidades obligatorias del sistema</strong></u></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">GESTIÓN DE CLIENTES</th>
+<th style="text-align: left;">GESTIÓN DE PÁJAROS (productos)</th>
+<th style="text-align: left;">GESTIÓN DE VENTAS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1 Alta de clientes</td>
+<td style="text-align: left;">1 Alta de pájaros disponibles (catálogo)</td>
+<td style="text-align: left;">1 Crear nueva venta: <br>&nbsp;&nbsp;&nbsp;&nbsp;1.1 Seleccionar cliente  <br>&nbsp;&nbsp;&nbsp;&nbsp;1.2 Añadir uno o más pájaros de la lista disponible</td>
+</tr>
+<tr>
+<td style="text-align: left;">2 Baja</td>
+<td style="text-align: left;">2 Listado del catálogo</td>
+<td style="text-align: left;">2 Mostrar todas las ventas realizadas</td>
+</tr>
+<tr>
+<td style="text-align: left;">3 Modificación</td>
+<td style="text-align: left;">3 Búsqueda por especie</td>
+<td style="text-align: left;">3 Mostrar ventas por cliente</td>
+</tr>
+<tr>
+<td style="text-align: left;">4 Búsqueda por DNI</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4 Mostrar importe total de cada venta</td>
+</tr>
+<tr>
+<td style="text-align: left;">5 Listado</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><u><strong>Estructura del menú principal</strong></u></p>
+<pre><code>=== MENÚ PRINCIPAL ===
+1. Gestión de clientes
+2. Gestión de pájaros
+3. Realizar venta
+4. Mostrar ventas
+5. Salir
+</code></pre>
+<p>Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).</p>
+<p><u><strong>Conceptos que se evalúan</strong></u></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Tema</th>
+<th style="text-align: left;">Evaluación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Variables, entrada/salida</td>
+<td style="text-align: left;">Captura y validación de datos</td>
+</tr>
+<tr>
+<td style="text-align: left;">Estructuras de control</td>
+<td style="text-align: left;">Menús, búsquedas, selección</td>
+</tr>
+<tr>
+<td style="text-align: left;">Clases y objetos</td>
+<td style="text-align: left;">Cliente, Pajaro, Venta</td>
+</tr>
+<tr>
+<td style="text-align: left;">Colecciones (ArrayList)</td>
+<td style="text-align: left;">Listas de clientes, productos y líneas de venta</td>
+</tr>
+<tr>
+<td style="text-align: left;">Funciones (static)</td>
+<td style="text-align: left;">Métodos organizados por funcionalidad</td>
+</tr>
+<tr>
+<td style="text-align: left;">Relaciones entre objetos</td>
+<td style="text-align: left;">Una venta está asociada a un cliente y varios pájaros</td>
+</tr>
+<tr>
+<td style="text-align: left;">Modularidad y claridad</td>
+<td style="text-align: left;">Separación por métodos y clases</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><u><strong>Evaluación</strong></u></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Criterio</th>
+<th style="text-align: left;">Puntos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Correcta gestión de clases y relaciones</td>
+<td style="text-align: left;">3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Menús y lógica funcional</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Uso de listas (ArrayList) correctamente</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Separación del código en funciones</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Validaciones y claridad del código</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Buenas prácticas y organización</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: left;"><strong>10</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><u><strong>Extras opcionales</strong> <em>(para subir nota)</em></u></p>
+<ul>
+<li>Mostrar importe total de ventas por cliente</li>
+<li>Gestión de stock (disminuir cantidad de pájaros disponibles al vender)</li>
+<li>Ordenar clientes o pájaros por campos (por nombre, especie, etc.)</li>
 </ul>
 <h2 id="proyecto-bases-de-datos">💾 Proyecto Bases de Datos</h2>
+<p>Fecha de entrega máxima: PENDIENTE</p>
 <ul>
 <li>📄 [Proyecto BBDD] - En desarrollo</li>
 </ul>
 <h2 id="proyecto-entornos-de-desarrollo">⚙️ Proyecto Entornos de Desarrollo</h2>
+<p>Fecha de entrega máxima: PENDIENTE</p>
 <ul>
 <li>📄 [Proyecto Entornos de Desarrollo] - En desarrollo</li>
 </ul>
 <h2 id="proyecto-mpo-python">🐍 Proyecto MPO | Python</h2>
+<p>Fecha de entrega máxima: PENDIENTE</p>
 <ul>
 <li>📄 [Proyecto MPO] - En desarrollo</li>
 </ul>
 <h2 id="proyecto-ipe-i">💼 Proyecto IPE-I</h2>
+<p>Fecha de entrega máxima: PENDIENTE</p>
 <ul>
 <li>📄 [Proyecto IPE-I] - En desarrollo</li>
 </ul>
 <h2 id="proyecto-sistemas-informaticos">🖥️ Proyecto Sistemas Informáticos</h2>
+<p>Fecha de entrega máxima: PENDIENTE</p>
 <ul>
 <li>📄 [Proyecto Sistemas Informáticos] - En desarrollo</li>
 </ul>
 <h2 id="proyecto-lenguaje-de-marcas">🖥️ Proyecto Lenguaje de Marcas</h2>
+<p>Fecha de entrega máxima: 1 de septiembre a las 23:59</p>
 <ul>
-<li>📚 [Proyecto Lenguaje de Marcas] - En desarrollo</li>
+<li>📚 <a href="https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL"><strong>PDF Proyecto 1 Lenguaje de Marcas</strong></a></li>
+<li>📚 <a href="https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit"><strong>PDF Memoria Proyecto 1 Lenguaje de Marcas</strong></a></li>
 </ul>
 <hr />
+<p><strong><u>Descripción general</u></strong></p>
+<p>Esta práctica consiste en el desarrollo de un sitio web de tipo portfolio personal.
+La finalidad es que este proyecto no solo sirva como actividad de evaluación, sino
+también como una herramienta personal y profesional que puedas utilizar en el
+futuro para presentar tu perfil, tus trabajos y tus habilidades. </p>
+<p>Esta práctica contará un 28% para la nota total de la evaluación continua. Faltando el otro 12% que será la 2o práctica (28%+12% = 40%).</p>
+<p><strong><u>Objetivo principal</u></strong></p>
+<p>El objetivo de la práctica es que diseñes y desarrolles un sitio web responsive,
+utilizando HTML5 y CSS3. El uso de JavaScript será opcional, excepto para ciertas
+funcionalidades como el menú en dispositivos móviles o la gestión de cookies,
+estos casos si será obligatorio.</p>
+<p><strong><u>Requisitos técnicos</u></strong></p>
+<ul>
+<li>Tecnologías obligatorias:<ul>
+<li>HTML5 y CSS3.</li>
+<li>Técnicas responsive: puedes usar media queries, Flexbox, Grid, Bootstrap, o combinarlas.</li>
+<li>Uso de JavaScript para:<ul>
+<li>Menú responsive.</li>
+<li>Popup de cookies.</li>
+<li>(Otros usos no serán puntuables, pero pueden sumar en originalidad).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Diseño previo obligatorio:<ul>
+<li>Boceto mínimo realizado en Figma.</li>
+<li>Debes realizar dos versiones: escritorio y móvil.</li>
+</ul>
+</li>
+<li>Tipografías:<ul>
+<li>Mínimo dos tipografías diferentes, cargadas de forma local (no desde Google Fonts ni fuentes externas).</li>
+</ul>
+</li>
+<li>Repositorio Git:<ul>
+<li>Obligatorio crear un repositorio desde el inicio del trabajo.</li>
+<li>El repositorio debe estar alojado en GitHub.</li>
+<li>Se debe ver actividad clara de trabajo con commits progresivos.</li>
+<li>Puedes usar herramientas como:<ul>
+<li>SourceTree</li>
+<li>Git desde terminal</li>
+<li>Git integrado en Visual Studio Code</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Legalidad y buenas prácticas:<ul>
+<li>Implementación obligatoria de un popup de cookies.</li>
+<li>Página o sección con textos simulados de política de privacidad de datos.</li>
+<li>Todas las imágenes utilizadas deben estar libres de derechos (de sitios como Unsplash, Pexels, Pixabay, etc.).</li>
+</ul>
+</li>
+</ul>
+<p><strong><u>Requisitos del contenido de una web tipo portfolio</u></strong></p>
+<p>El portfolio debe incluir como mínimo:</p>
+<ol>
+<li>Página de inicio con una breve presentación.</li>
+<li>Sección de proyectos: al menos 3 proyectos (pueden ser ficticios, pero
+deben tener descripción e imagen representativa).</li>
+<li>Currículum: breve resumen formativo y profesional.</li>
+<li>Contacto: formulario funcional o una dirección de email visible.</li>
+<li>Blog o sección de intereses personales (opcional pero recomendado).</li>
+<li>Diseño adaptado a móvil y escritorio.</li>
+</ol>
+<p><strong><u>Requisitos de entrega</u></strong></p>
+<p>Junto con la entrega del proyecto, es obligatorio presentar una memoria en formato PDF utilizando la plantilla proporcionada. Esta memoria debe incluir los siguientes apartados:</p>
+<ul>
+<li><u>Capturas del diseño en Figma</u>: Bocetos para versión escritorio y versión móvil.</li>
+<li><u>Enlace al repositorio de GitHub</u>: Debe ser público y mostrar un historial de trabajo progresivo.</li>
+<li><u>Enlace al sitio web publicado en un hosting gratuito</u>: Puedes usar servicios como GitHub Pages, Netlify, Vercel, entre otros.</li>
+<li><u>Complicaciones encontradas y soluciones aplicadas</u>: Explica al menos dos problemas reales surgidos durante el desarrollo y cómo los resolviste.</li>
+<li><u>Tipografías utilizadas</u>: Especifica el nombre de cada fuente utilizada y su origen (recordatorio: deben estar cargadas localmente y libres de derechos).</li>
+<li><u>Plan de pruebas</u>: <ul>
+<li>Detalla un plan básico de pruebas que hayas realizado para validar el correcto funcionamiento de la web.</li>
+<li>Incluye pruebas como:<ul>
+<li>Visualización en distintos tamaños de pantalla (responsive).</li>
+<li>Funcionamiento de enlaces y formularios.</li>
+<li>Visualización en varios navegadores (Chrome, Firefox, etc.).</li>
+<li>Funcionamiento del menú y del popup de cookies.</li>
+<li>Carga correcta de fuentes e imágenes.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Criterio</th>
+<th style="text-align: left;">Puntos</th>
+<th style="text-align: left;">Descripción detalla de la puntuación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Estructura y uso correcto de HTML5 y CSS3</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2 pts: HTML y CSS bien estructurados, semánticos, sin errores.<br>1 pt: estructura básica pero errores leves.<br>0 pt: uso incorrecto, desordenado o incompleto.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Diseño responsive funcional (mínimo en 2 resoluciones)</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2 pts: correcta adaptación a móvil y escritorio, sin fallos. <br>1 pt: adaptación parcial, errores en algún dispositivo.<br>0 pt: no es responsive.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Boceto previo en Figma (escritorio + móvil)</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1 pt: se incluyen ambos bocetos y capturas claras.<br>0.5 pts: solo un boceto o capturas incompletas.<br>0 pt: no se entrega diseño en Figma.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Tipografías locales (mínimo 2)</td>
+<td style="text-align: left;">0.50</td>
+<td style="text-align: left;">0.5 pt: se usan dos fuentes distintas y están cargadas localmente.<br>0 pt: no se usan o no son locales.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Repositorio Git en GitHub (uso correcto)</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 pt: repositorio creado desde el inicio, con commits progresivos.<br>0.5 pts: pocos commits o repositorio mal estructurado.<br>0 pt: no se usa Git/GitHub.</td>
+</tr>
+<tr>
+<td style="text-align: left;">JavaScript para menú responsive y cookies</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1 pt: funcionalidad correcta del menú móvil y popup de cookies.<br>0.5 pts: uno de los dos funciona.<br>0 pt: ninguna funcionalidad presente.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Política de privacidad simulada</td>
+<td style="text-align: left;">0.50</td>
+<td style="text-align: left;">0.5 pt: texto simulado claro, accesible desde algún lugar del sitio.<br>0 pt: no está presente.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad del diseño visual y experiencia de usuario (UX)</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">2 pts: diseño cuidado, navegación clara, estética coherente.<br> 1 pt: diseño aceptable pero con fallos visuales o de estructura.<br>0 pt: diseño pobre, caótico o inacabado.</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 
 
 
