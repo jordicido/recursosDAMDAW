@@ -31,6 +31,12 @@ Este módulo introduce las herramientas y prácticas de los **Entornos de Desarr
 - 📄 [Diapositiva 6: ]() - Proximamente
 - 📄 [Diapositiva 7: ]() - Proximamente
 
+### 🔹 Materiales del profesorado
+
+- [WEBSITE Apuntes - Jordi](https://jordicido.github.io/jordicido-fp/EDD/)
+
+---
+
 ## Proximamente
 
 - Resto de diapositivas
