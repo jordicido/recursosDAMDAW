@@ -23,13 +23,13 @@ Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar a�
 
     ```java
     public class Cliente {
-    private String
-    nombre; private
-    String dni; private
-    String telefono;
-    private String
-    email;
-    // Constructor, getters y setters
+        private String
+                nombre; private
+        String dni; private
+        String telefono;
+        private String
+                email;
+        // Constructor, getters y setters
     }
     ```
 
@@ -37,11 +37,11 @@ Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar a�
 
     ```java
     public class Pajaro {
-    private String
-    especie; private
-    String color; private
-    double precio;
-    // Constructor, getters y setters
+        private String
+                especie; private
+        String color; private
+        double precio;
+        // Constructor, getters y setters
     }
     ```
 
@@ -49,11 +49,11 @@ Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar a�
 
     ```java
     public class Venta {
-    private Cliente
-    cliente;
-    private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene
-    varios pájaros private String fecha;
-    // Constructor, método para añadir pájaros, calcular total, etc.
+        private Cliente
+                cliente;
+        private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene
+        varios pájaros private String fecha;
+        // Constructor, método para añadir pájaros, calcular total, etc.
     }
     ```
 
