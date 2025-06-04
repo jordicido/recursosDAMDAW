@@ -18,13 +18,13 @@ Bienvenidos a la página con los recursos acumulados de los estudiantes de DAM/D
 
 ## 📝 **EVALUACIÓN CONTINUA DAM/DAW - 1ª ENTREGA**
 
-- [Programación](eva_continua.md#eva_prog_1)
-- [Bases de Datos](eva_continua.md#eva_bbdd_1)
+- [Programación](https://jordicido.github.io/recursosDAMDAW/eva_continua/)
+- [Bases de Datos](/docs/eva_continua.md#-proyecto-1-bases-de-datos)
 - [Entornos de Desarrollo](eva_continua.md#eva_endes_1)
 - [MPO - Python](eva_continua.md#eva_mpo_1)
 - [IPE-I](eva_continua.md#eva_ipe_1)
 - [Sistemas informáticos](eva_continua.md#️eva_inf_1)
-- [Lenguaje de Marcas](eva_continua.md#eva_marcas_1)
+- [Lenguaje de Marcas](/docs/eva_continua.md#️-proyecto-1-lenguaje-de-marcas-sitio-web-responsive)
 
 ---
 

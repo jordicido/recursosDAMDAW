@@ -5,7 +5,7 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 
 
-## ☕ Proyecto 1 Programacion: Gestión de Clientes para un Negocio {#eva_prog_1}
+## ☕ Proyecto 1 Programacion: Gestión de Clientes para un Negocio
 
 <u>Fecha de entrega máxima</u>: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
 
@@ -112,7 +112,7 @@ Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).
 
 ---
 
-## 🖥️ Proyecto 1 Lenguaje de Marcas: Sitio web responsive {#eva_marcas_1}
+## 🖥️ Proyecto 1 Lenguaje de Marcas: Sitio web responsive
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
 - 📚 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL)
@@ -206,7 +206,7 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## 💾 Proyecto 1 Bases de Datos {#eva_bbdd_1}
+## 💾 Proyecto 1 Bases de Datos
 
 <u>Fecha de entrega máxima</u>: PENDIENTE
 
@@ -214,7 +214,7 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## ⚙️ Proyecto 1 Entornos de Desarrollo {#eva_endes_1}
+## ⚙️ Proyecto 1 Entornos de Desarrollo
 
 <u>Fecha de entrega máxima</u>: PENDIENTE
 
@@ -222,7 +222,7 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## 🐍 Proyecto 1 MPO | Python  {#eva_mpo_1}
+## 🐍 Proyecto 1 MPO | Python
 
 <u>Fecha de entrega máxima</u>: PENDIENTE
 
@@ -230,7 +230,7 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## 💼 Proyecto 1 IPE-I {#eva_ipe_1}
+## 💼 Proyecto 1 IPE-I
 
 <u>Fecha de entrega máxima</u>: PENDIENTE
 
@@ -238,7 +238,7 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## 🖥️ Proyecto 1 Sistemas Informáticos {#eva_inf_1}
+## 🖥️ Proyecto 1 Sistemas Informáticos
 
 <u>Fecha de entrega máxima</u>: PENDIENTE
 
