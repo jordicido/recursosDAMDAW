@@ -21,41 +21,41 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 1. Cliente
 
-    ```java
-    public class Cliente {
-        private String
-                nombre; private
-        String dni; private
-        String telefono;
-        private String
-                email;
-        // Constructor, getters y setters
-    }
-    ```
+```java
+public class Cliente {
+    private String
+            nombre; private
+    String dni; private
+    String telefono;
+    private String
+            email;
+    // Constructor, getters y setters
+}
+```
 
 2. Pájaro (lo que se vende)
 
-    ```java
-    public class Pajaro {
-        private String
-                especie; private
-        String color; private
-        double precio;
-        // Constructor, getters y setters
-    }
-    ```
+```java
+public class Pajaro {
+    private String
+            especie; private
+    String color; private
+    double precio;
+    // Constructor, getters y setters
+}
+```
 
 3. Venta
 
-    ```java
-    public class Venta {
-        private Cliente
-                cliente;
-        private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene
-        varios pájaros private String fecha;
-        // Constructor, método para añadir pájaros, calcular total, etc.
-    }
-    ```
+```java
+public class Venta {
+    private Cliente
+            cliente;
+    private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene
+    varios pájaros private String fecha;
+    // Constructor, método para añadir pájaros, calcular total, etc.
+}
+```
 
 <u>**Funcionalidades obligatorias del sistema**</u>
 
