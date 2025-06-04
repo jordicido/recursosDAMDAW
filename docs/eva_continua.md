@@ -69,7 +69,6 @@ Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar a�
 |                               |                                               |                                               |
 
 
-
 <u>**Estructura del menú principal**</u>
 
 ```
@@ -114,7 +113,7 @@ Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).
 - Gestión de stock (disminuir cantidad de pájaros disponibles al vender)
 - Ordenar clientes o pájaros por campos (por nombre, especie, etc.)
 
-
+---
 
 ## 💾 Proyecto Bases de Datos
 
@@ -122,6 +121,7 @@ Fecha de entrega máxima: PENDIENTE
 
 - 📄 [Proyecto BBDD] - En desarrollo
 
+---
 
 ## ⚙️ Proyecto Entornos de Desarrollo
 
@@ -129,12 +129,15 @@ Fecha de entrega máxima: PENDIENTE
 
 - 📄 [Proyecto Entornos de Desarrollo] - En desarrollo
 
+---
+
 ## 🐍 Proyecto MPO | Python
 
 Fecha de entrega máxima: PENDIENTE
 
 - 📄 [Proyecto MPO] - En desarrollo
 
+---
 
 ## 💼 Proyecto IPE-I
 
@@ -142,6 +145,7 @@ Fecha de entrega máxima: PENDIENTE
 
 - 📄 [Proyecto IPE-I] - En desarrollo
 
+---
 
 ## 🖥️ Proyecto Sistemas Informáticos
 
@@ -149,10 +153,10 @@ Fecha de entrega máxima: PENDIENTE
 
 - 📄 [Proyecto Sistemas Informáticos] - En desarrollo
 
-
+---
 
 ## 🖥️ Proyecto Lenguaje de Marcas
-Fecha de entrega máxima: 1 de septiembre a las 23:59
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
 - 📚 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL)
 - 📚 [**PDF Memoria Proyecto 1 Lenguaje de Marcas**](https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit)
