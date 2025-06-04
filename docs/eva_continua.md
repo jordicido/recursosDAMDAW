@@ -7,13 +7,13 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 ## ☕ Proyecto Programacion Java 1: Gestión de Clientes para un Negocio
 
-Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
+<u>Fecha de entrega máxima</u>: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
 
 - 📄 [**PDF Proyecto Java**](https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view) - Documento PDF del Proyecto 1
 
 ---
 
-### <u>**TÍTULO DEL PROYECTO**</u> 
+<u>**TÍTULO DEL PROYECTO**</u> 
 
 *Ejemplo: Sistema de Gestión para una Pajarería*
 
@@ -66,7 +66,6 @@ Fecha de entrega máxima: PENDIENTE (Inicio Septiembre - Fecha por determinar a�
 | 3 Modificación                | 3 Búsqueda por especie                        | 3 Mostrar ventas por cliente                  |
 | 4 Búsqueda por DNI            |                                               | 4 Mostrar importe total de cada venta         |      
 | 5 Listado                     |                                               |                                               |
-|                               |                                               |                                               |
 
 
 <u>**Estructura del menú principal**</u>
@@ -92,7 +91,6 @@ Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).
 | Funciones (static)           | Métodos organizados por funcionalidad         |
 | Relaciones entre objetos     | Una venta está asociada a un cliente y varios pájaros |
 | Modularidad y claridad       | Separación por métodos y clases               |
-|                              |                                               |
 
 <u>**Evaluación**</u>
 
@@ -105,53 +103,12 @@ Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).
 | Validaciones y claridad del código        | 1      |
 | Buenas prácticas y organización           | 1      |
 | **Total** | **10** |
-|                                           |        |
 
 <u>**Extras opcionales** *(para subir nota)*</u>
 
 - Mostrar importe total de ventas por cliente
 - Gestión de stock (disminuir cantidad de pájaros disponibles al vender)
 - Ordenar clientes o pájaros por campos (por nombre, especie, etc.)
-
----
-
-## 💾 Proyecto Bases de Datos
-
-Fecha de entrega máxima: PENDIENTE
-
-- 📄 [Proyecto BBDD] - En desarrollo
-
----
-
-## ⚙️ Proyecto Entornos de Desarrollo
-
-Fecha de entrega máxima: PENDIENTE
-
-- 📄 [Proyecto Entornos de Desarrollo] - En desarrollo
-
----
-
-## 🐍 Proyecto MPO | Python
-
-Fecha de entrega máxima: PENDIENTE
-
-- 📄 [Proyecto MPO] - En desarrollo
-
----
-
-## 💼 Proyecto IPE-I
-
-Fecha de entrega máxima: PENDIENTE
-
-- 📄 [Proyecto IPE-I] - En desarrollo
-
----
-
-## 🖥️ Proyecto Sistemas Informáticos
-
-Fecha de entrega máxima: PENDIENTE
-
-- 📄 [Proyecto Sistemas Informáticos] - En desarrollo
 
 ---
 
@@ -236,7 +193,6 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
         - Funcionamiento del menú y del popup de cookies.
         - Carga correcta de fuentes e imágenes.
 
-
 | Criterio                                      | Puntos | Descripción detalla de la puntuación     |
 | :----------------------------------------     | :----- |:---------------------------------------- |
 | Estructura y uso correcto de HTML5 y CSS3     | 2      | 2 pts: HTML y CSS bien estructurados, semánticos, sin errores.<br>1 pt: estructura básica pero errores leves.<br>0 pt: uso incorrecto, desordenado o incompleto.|
@@ -247,4 +203,43 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 | JavaScript para menú responsive y cookies     | 1      | 1 pt: funcionalidad correcta del menú móvil y popup de cookies.<br>0.5 pts: uno de los dos funciona.<br>0 pt: ninguna funcionalidad presente.|
 | Política de privacidad simulada               | 0.50 | 0.5 pt: texto simulado claro, accesible desde algún lugar del sitio.<br>0 pt: no está presente.|
 | Calidad del diseño visual y experiencia de usuario (UX)| 2       | 2 pts: diseño cuidado, navegación clara, estética coherente.<br> 1 pt: diseño aceptable pero con fallos visuales o de estructura.<br>0 pt: diseño pobre, caótico o inacabado.|
-|                                               |        |                                           |
+
+---
+
+## 💾 Proyecto Bases de Datos
+
+<u>Fecha de entrega máxima</u>: PENDIENTE
+
+- 📄 [Proyecto BBDD] - En desarrollo
+
+---
+
+## ⚙️ Proyecto Entornos de Desarrollo
+
+<u>Fecha de entrega máxima</u>: PENDIENTE
+
+- 📄 [Proyecto Entornos de Desarrollo] - En desarrollo
+
+---
+
+## 🐍 Proyecto MPO | Python
+
+<u>Fecha de entrega máxima</u>: PENDIENTE
+
+- 📄 [Proyecto MPO] - En desarrollo
+
+---
+
+## 💼 Proyecto IPE-I
+
+<u>Fecha de entrega máxima</u>: PENDIENTE
+
+- 📄 [Proyecto IPE-I] - En desarrollo
+
+---
+
+## 🖥️ Proyecto Sistemas Informáticos
+
+<u>Fecha de entrega máxima</u>: PENDIENTE
+
+- 📄 [Proyecto Sistemas Informáticos] - En desarrollo
