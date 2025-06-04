@@ -1,6 +1,9 @@
 # Proyecto de entornos: Recursos de aprendizaje DAM/DAW
 
-En este repositorio encontrarás una serie de recursos de aprendizaje para los módulos de Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW). Estos recursos están diseñados para complementar tu formación y ayudarte a adquirir las competencias necesarias en el ámbito del desarrollo de software.
+[Repositorio DAM/DAW](https://jordicido.github.io/recursosDAMDAW/)
+
+En este repositorio encontrarás una serie de recursos de aprendizaje para los módulos de Desarrollo de Aplicaciones Multiplataforma (DAM) y Desarrollo de Aplicaciones Web (DAW). 
+Estos recursos están diseñados para complementar tu formación y ayudarte a adquirir las competencias necesarias en el ámbito del desarrollo de software.
 
 ## Instrucciones de uso
 

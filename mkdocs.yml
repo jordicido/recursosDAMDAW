@@ -1,5 +1,17 @@
 site_name: Recursos DAM/DAW
 site_url: https://jordicido.github.io/recursosDAMDAW
+
+nav:
+  - Java: Java/index.md
+  - Python: Python/index.md
+  - Lenguajes de marcas: "Lenguajes de Marcas y Sistemas de Gestión de la Información/index.md"
+  - Bases de datos:  "Bases de Datos/index.md"
+  - Entornos de desarrollo: "Entornos de Desarrollo/index.md"
+  - Sistemas informáticos: "Sistemas Informáticos/index.md"
+  - Itinerario Personal para la Empleabilidad: "Itinerario Personal para la Empleabilidad/index.md"
+  - Evaluación Continua: "eva_continua.md"
+  - Certificaciones y Formación Complementaria: "Certificaciones y Formación Complementaria/index.md"
+
 theme:
   name: material
   palette:
