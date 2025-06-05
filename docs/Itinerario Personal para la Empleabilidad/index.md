@@ -10,19 +10,37 @@ Este módulo introduce los conceptos fundamentales del Derecho Laboral y la Orie
 
 ---
 
-## 📖 Apuntes y teoría
+## 📖 Temario
 
-- 📄 [Unidad 1: La Salud laboral y prevención](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP%2BThePower/Unidad+1.+La+Salud+Laboral+y+Prevencio%CC%81n.pdf)
-- 📄 [Unidad 2: Riesgos profesionales](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+2.+Riesgos+profesionales.pdf)
-- 📄 [Unidad 3: Prevención y primeros auxilios en la empresa](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+3.+Prevencion+y+primeros+auxilios+en+la+empresa.pdf)
-- 📄 [Unidad 4: Derecho del trabajo la relación laboral y el convenio colectivo](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+4.+Derecho+del+trabajo_+la+relacio%CC%81n+laboral+y+el+convenio+colectivo.pdf)
-- 📄 [Unidad 5: El contrato de trabajo y modalidades de contratación](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+5.+El+contrato+de+trabajo+y+modalidades+de+contratacio%CC%81n.pdf)
-- 📄 [Unidad 6: Jornada laboral y salario](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+6.+Jornada+laboral+y+salario.pdf)
-- 📄 [Unidad 7: Modificaciones en la relación laboral](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+7.+Modificaciones+en+la+relacio%CC%81n+laboral.pdf)
-- 📄 [Unidad 8: La Seguridad Social](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP%2BThePower/Unidad+8.+La+Seguridad+Social+.pdf)
-- 📄 [Unidad 9: El mundo laboral y el potencial profesional](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+9.pdf)
-- 📄 [Unidad 10: El sector profesional](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+10.pdf)
-- 📄 [Unidad 11: Empleabilidad](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+11.pdf)
+- 📄 Unidad 1: La Salud laboral y prevención
+- 📄 Unidad 2: Riesgos profesionales
+- 📄 Unidad 3: Prevención y primeros auxilios en la empresa
+- 📄 Unidad 4: Derecho del trabajo la relación laboral y el convenio colectivo
+- 📄 Unidad 5: El contrato de trabajo y modalidades de contratación
+- 📄 Unidad 6: Jornada laboral y salario
+- 📄 Unidad 7: Modificaciones en la relación laboral
+- 📄 Unidad 8: La Seguridad Social
+- 📄 Unidad 9: El mundo laboral y el potencial profesional
+- 📄 Unidad 10: El sector profesional
+- 📄 Unidad 11: Empleabilidad
+
+
+### Distribución contenidos en unidades didácticas
+
+| SEMESTRE | HORAS | NOMBRE DE LA UNIDAD DE TRABAJO                                  |
+| :------- | :---- | :-------------------------------------------------------------- |
+| 1º       | 6     | 1.La salud laboral y prevención.                                |
+| 1º       | 12    | 2.Riesgos profesionales y prevención.                           |
+| 1º       | 9     | 3.Prevención de riesgos laborales y primeros auxilios.          |
+| 1º       | 9     | 4.Derecho del trabajo: La relación laboral y el convenio colectivo. |
+| 1º       | 12    | 5.El contrato de trabajo y modalidades de contratación.         |
+| 2º       | 12    | 6.Jornada laboral y salario.                                    |
+| 2º       | 6     | 7.Modificaciones de la relación laboral.                        |
+| 2º       | 6     | 9.El mundo laboral y el potencial profesional.                  |
+| 2º       | 4     | 10.El sector profesional.                                       |
+| 2º       | 12    | 8.La Seguridad Social.                                          |
+| 2º       | 11    | 11.La empleabilidad.                                            |
+| **TOTAL HORAS** | **99h** |       
 
 ---
 
@@ -44,27 +62,9 @@ Este módulo introduce los conceptos fundamentales del Derecho Laboral y la Orie
 
 ## 📝 Supuestos Prácticos 
 
-- 📄 [Supuesto Práctico 1](https://drive.google.com/file/d/1Rf8SAJ5ZFw1GH3AZ_oZ17flGizV4QMPA/view)
-    - [Solución Supuesto Práctico 1](https://drive.google.com/file/d/1821Ocgv0M5LjIzBYMmz68dI_F_jbDPSW/view)
-- 📄 [Supuesto Práctico  2](https://drive.google.com/file/d/1Ac-N_OOSpb4DU3jI6ksdIHJmS_1gr3zU/view)
-    - [Solución Supuesto Práctico 2]() - Proximamente
-- 📄 [Supuesto Práctico  3](https://drive.google.com/file/d/1w7jG1JOYN7A_gQXak1cVf9Vx5B2TyVbP/view) 
-    - [Solución Supuesto Práctico 3]()  - Proximamente
-- 📄 [Supuesto Práctico  4](https://drive.google.com/file/d/14X7keRh7tT9sBDNaSorip3lEThbFwqzl/view)
-    - [Solución Supuesto Práctico 4]() - Proximamente
-- 📄 [Supuesto Práctico  5]() - Proximamente
-    - [Solución Supuesto Práctico 5]() - Proximamente
-- 📄 [Supuesto Práctico  6]() - Proximamente
-    - [Solución Supuesto Práctico 6]() - Proximamente
-- 📄 [Supuesto Práctico  7]() - Proximamente
-    - [Solución Supuesto Práctico 7]() - Proximamente
-- 📄 [Supuesto Práctico  8]() - Proximamente
-    - [Solución Supuesto Práctico 8]() - Proximamente
-- 📄 [Supuesto Práctico  9]() - Proximamente
-    - [Solución Supuesto Práctico 9]() - Proximamente
-- 📄 [Supuesto Práctico  10]() - Proximamente
-    - [Solución Supuesto Práctico 10]() - Proximamente
-- 📄 [Supuesto Práctico  11]() - Proximamente
-    - [Solución Supuesto Práctico 11]() - Proximamente
+- 📄 Enunciado: [Supuesto Práctico 1](https://drive.google.com/file/d/1Rf8SAJ5ZFw1GH3AZ_oZ17flGizV4QMPA/view) | Solución: [Supuesto Práctico 1](https://drive.google.com/file/d/1821Ocgv0M5LjIzBYMmz68dI_F_jbDPSW/view)
+- 📄 Enunciado:  [Supuesto Práctico 2](https://drive.google.com/file/d/1Ac-N_OOSpb4DU3jI6ksdIHJmS_1gr3zU/view) | Solución: [Solución Supuesto Práctico 2]() *- Proximamente*
+- 📄 Enunciado: [Supuesto Práctico  3](https://drive.google.com/file/d/1w7jG1JOYN7A_gQXak1cVf9Vx5B2TyVbP/view) | Solución: [Solución Supuesto Práctico 3]()  *- Proximamente*
+- 📄 Enunciado: [Supuesto Práctico  4](https://drive.google.com/file/d/14X7keRh7tT9sBDNaSorip3lEThbFwqzl/view) | Solución: [Solución Supuesto Práctico 4]() *- Proximamente*
 
 ---

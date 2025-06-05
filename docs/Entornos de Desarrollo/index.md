@@ -10,14 +10,31 @@ Este módulo introduce las herramientas y prácticas de los **Entornos de Desarr
 
 ---
 
-## 📖 Apuntes y teoría
+## 📖 Temario
 
-- 📄 [Unidad 1: Desarrollo de Software](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+1+Entornos+.pdf)
-- 📄 [Unidad 2: Instalación y uso de entornos de desarrollo](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/0487Unidad2.pdf)
-- 📄 [Unidad 3: Optimización y documentación](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+3+Entornos+.pdf)
-- 📄 [Unidad 4: Diseño y realización de pruebas](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad+4+Entornos+.pdf)
-- 📄 [Unidad 5: Elaboración de Diagramas de Clases](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/DAM/Tercer+trimestre/0487Unidad5DAMDAW.pdf)
-- 📄 [Unidad 6: Elaboración de diagramas de comportamiento](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/DAM/Tercer+trimestre/0487Unidad6DAMDAW.pdf)
+- 📄 Unidad 1: Desarrollo de Software
+- 📄 Unidad 2: Instalación y uso de entornos de desarrollo
+- 📄 Unidad 3: Optimización y documentación
+- 📄 Unidad 4: Diseño y realización de pruebas
+- 📄 Unidad 5: Elaboración de Diagramas de Clases
+- 📄 Unidad 6: Elaboración de diagramas de comportamiento
+
+### Distribución contenidos en unidades didácticas
+
+| SEMESTRE | HORAS | NOMBRE DE LA UNIDAD DE TRABAJO               |
+| :------- | :---- | :------------------------------------------- |
+| 1º       | 16    | UT1. Desarrollo de software.                 |
+| 1º       | 16    | UT2. Instalación y uso de entornos de desarrollo. |
+| 1º       | 16    | UT3. Diseño y realización de pruebas.        |
+| 2º       | 16    | UT4. Optimización y documentación            |
+| 2º       | 19    | UT5. Elaboración de diagramas de clases.     |
+| 2º       | 16    | UT6. Elaboración de diagramas de comportamiento. |
+| **TOTAL HORAS** | **99 h** |    
+
+
+### 🔹 Materiales del profesorado
+
+- [WEBSITE Apuntes Entornos - Jordi](https://jordicido.github.io/jordicido-fp/EDD/)
 
 ---
 
@@ -30,10 +47,6 @@ Este módulo introduce las herramientas y prácticas de los **Entornos de Desarr
 - 📄 [Diapositiva 5: ]() - Proximamente
 - 📄 [Diapositiva 6: ]() - Proximamente
 - 📄 [Diapositiva 7: ]() - Proximamente
-
-### 🔹 Materiales del profesorado
-
-- [WEBSITE Apuntes Entornos - Jordi](https://jordicido.github.io/jordicido-fp/EDD/)
 
 ---
 

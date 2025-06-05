@@ -10,15 +10,29 @@ Este módulo introduce los fundamentos de los **Sistemas Informáticos**, esenci
 
 ---
 
-## 📝📖 Apuntes y teoría
+## 📝📖 Temario
 
-- 📄 [Unidad 1: Introducción a los Sistemas Informáticos](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad1.pdf)
-- 📄 [Unidad 2: Introducción a los Sistemas Operativos](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad2.pdf)
-- 📄 [Unidad 3: Máquinas Virtuales](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad3.pdf)
-- 📄 [Unidad 4: Instalación y Configuración de Sistemas Operativos](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad4.pdf)
-- 📄 [Unidad 5: Gestión de Sistemas Operativos Múltiples y Arranque](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad5.pdf)
-- 📄 [Unidad 6: Almacenamiento y Administración de Dispositivos](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/Unidad6.pdf)
-- 📄 [Unidad 7: Configuración de Redes y Conectividad en Sistemas Operativo](https://s3.us-east-1.amazonaws.com/staticcontent.thepowermba/FP+ThePower/DAM/Tercer+trimestre/0483Unidad7DAMDAW.pdf)
+- 📄 Unidad 1: Introducción a los Sistemas Informáticos
+- 📄 Unidad 2: Introducción a los Sistemas Operativos
+- 📄 Unidad 3: Máquinas Virtuales
+- 📄 Unidad 4: Instalación y Configuración de Sistemas Operativos
+- 📄 Unidad 5: Gestión de Sistemas Operativos Múltiples y Arranque
+- 📄 Unidad 6: Almacenamiento y Administración de Dispositivos
+- 📄 Unidad 7: Configuración de Redes y Conectividad en Sistemas Operativo
+
+### Distribución contenidos en unidades didácticas
+
+| SEMESTRE | HORAS | NOMBRE DE LA UNIDAD DE TRABAJO                                    |
+| :------- | :---- | :---------------------------------------------------------------- |
+| 1º       | 30    | UT 1. Introducción a los Sistemas Informáticos                    |
+| 1º       | 30    | UT 2. Introducción a los Sistemas Operativos                      |
+| 1º       | 20    | UT 3. Máquinas Virtuales                                          |
+| 1º       | 15    | UT 4. Gestión de la información en sistemas operativos Libres: Linux |
+| 2º       | 15    | UT 5. Configuración de la información en sistemas operativos Libres: Linux |
+| 2º       | 10    | UT 6. Gestión de la información en sistemas operativos propietarios: Windows |
+| 2º       | 20    | UT 7. Configuración de la información en sistemas operativos propietarios: Windows |
+| 2º       | 25    | UT 8. Conexión de los sistemas en red                             |
+| **TOTAL HORAS** | **165 h** | 
 
  ---
 

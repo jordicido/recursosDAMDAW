@@ -10,15 +10,18 @@ Este módulo optativo introduce el uso del lenguaje de programación **Python**,
 
 ---
 
-## 📖 Apuntes y teoría
+## 📖 Temario
 
-- 📄 [Unidad 1: ](https:) - EN DESARROLLO
+- [WEBSITE Apuntes MPO - Jordi](https://jordicido.github.io/jordicido-fp/MPO/)
+
+### Distribución contenidos en unidades didácticas
+
+*NO DISPONIBLE*
 
 ### 🔹 Materiales del profesorado
 
 - [GitHub - jordicido/MPOFebrero2025](https://github.com/jordicido/MPOFebrero2025) – Repositorio con los ejercicios vistos en clase.
 - [Drive Jordi](https://www.codedex.io/) – Aprendizaje gamificado de desarrollo web.
-- [WEBSITE Apuntes MPO - Jordi](https://jordicido.github.io/jordicido-fp/MPO/)
 
 - [GitHub - Mario](https://github.com/mariofloresUBU) – Repositorio con los ejercicios vistos en clase.
 - [Drive Mario](https://drive.google.com/drive/folders/1GfldVgUt7C_wCgs5Vvl5Se0safCSiloU) – Drive con presentaciones y Scripts de Mario.

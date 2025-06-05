@@ -10,17 +10,41 @@ Este módulo introduce el uso de lenguajes de marcas como **HTML** y hojas de es
 
 ---
 
-## 📝 Apuntes y teoría
+## 📖 Temario
 
+- 📄 Unidad 1: Instalaciones
+- 📄 Unidad 2: HTML5
+- 📄 Unidad 3: XML, DTD y Schemas
+- 📄 Unidad 4: CSS3
+- 📄 Unidad 5: Flex
+- 📄 Unidad 6: Grid
+- 📄 Unidad 7: Variables CSS
+- 📄 Unidad 8: Animaciones
+- 📄 Unidad 9: JavaScript
 
+### Distribución contenidos en unidades didácticas
+
+| SEMESTRE | HORAS | NOMBRE DE LA UNIDAD DE TRABAJO                                    |
+| :------- | :---- | :---------------------------------------------------------------- |
+| 1º       | 18    | UT1. Introducción y reconocimiento de las características de los lenguajes de marcas |
+| 1º       | 13    | UT2. Lenguaje HTML v5.0                                           |
+| 1º       | 10    | UT3. Hojas de estilo CSS v3.0                                     |
+| 1º       | 10    | UT4. Formularios en HTML                                          |
+| 2º       | 10    | UT5. Javascript                                                   |
+| 2º       | 12    | UT6. Bootstrap                                                    |
+| 2º       | 14    | UT7. XML y DTD                                                    |
+| 2º       | 12    | UT8. Schemas                                                      |
+| **TOTAL HORAS** | **99 h** |                                                           |
 
 ---
 
 ### 🔹 Materiales del profesorado
 
 - [GitHub - ralbiolsalguero/lmdamdawbcn](https://github.com/ralbiolsalguero/lmdamdawbcn) – Repositorio con los ejercicios vistos en clase.
-
 - [GitHub - albiolsalguero/lenguajedemarcas](https://github.com/ralbiolsalguero/lenguajedemarcas) – Repositorio para los ejercicios.
+- [Drive Febrero/Marzo](https://drive.google.com/drive/folders/1qRgBCD1gKwKLP07PP9MVgPRsLvfSG6xK)
+- [Drive Abril/Diciembre]() - Pendiente
+
 
 ---
 
