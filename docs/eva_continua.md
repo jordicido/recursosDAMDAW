@@ -137,30 +137,34 @@ estos casos si será obligatorio.
 
 **<u>Requisitos técnicos</u>**
 
+<!-- prettier-ignore-start -->
+
 - Tecnologías obligatorias:
-  - HTML5 y CSS3.
-  - Técnicas responsive: puedes usar media queries, Flexbox, Grid, Bootstrap, o combinarlas.
-  - Uso de JavaScript para:
-    - Menú responsive.
-    - Popup de cookies.
-    - (Otros usos no serán puntuables, pero pueden sumar en originalidad).
+    - HTML5 y CSS3.
+    - Técnicas responsive: puedes usar media queries, Flexbox, Grid, Bootstrap, o combinarlas.
+    - Uso de JavaScript para:
+        - Menú responsive.
+        - Popup de cookies.
+        - (Otros usos no serán puntuables, pero pueden sumar en originalidad).
 - Diseño previo obligatorio:
-  - Boceto mínimo realizado en Figma.
-  - Debes realizar dos versiones: escritorio y móvil.
+    - Boceto mínimo realizado en Figma.
+    - Debes realizar dos versiones: escritorio y móvil.
 - Tipografías:
-  - Mínimo dos tipografías diferentes, cargadas de forma local (no desde Google Fonts ni fuentes externas).
+    - Mínimo dos tipografías diferentes, cargadas de forma local (no desde Google Fonts ni fuentes externas).
 - Repositorio Git:
   - Obligatorio crear un repositorio desde el inicio del trabajo.
-  - El repositorio debe estar alojado en GitHub.
-  - Se debe ver actividad clara de trabajo con commits progresivos.
-  - Puedes usar herramientas como:
-    - SourceTree
-    - Git desde terminal
-    - Git integrado en Visual Studio Code
+    - El repositorio debe estar alojado en GitHub.
+    - Se debe ver actividad clara de trabajo con commits progresivos.
+    - Puedes usar herramientas como:
+        - SourceTree
+        - Git desde terminal
+        - Git integrado en Visual Studio Code
 - Legalidad y buenas prácticas:
-  - Implementación obligatoria de un popup de cookies.
-  - Página o sección con textos simulados de política de privacidad de datos.
-  - Todas las imágenes utilizadas deben estar libres de derechos (de sitios como Unsplash, Pexels, Pixabay, etc.).
+    - Implementación obligatoria de un popup de cookies.
+    - Página o sección con textos simulados de política de privacidad de datos.
+    - Todas las imágenes utilizadas deben estar libres de derechos (de sitios como Unsplash, Pexels, Pixabay, etc.).
+
+<!-- prettier-ignore-end -->
 
 **<u>Requisitos del contenido de una web tipo portfolio</u>**
 
@@ -176,6 +180,8 @@ El portfolio debe incluir como mínimo:
 
 **<u>Requisitos de entrega</u>**
 
+<!-- prettier-ignore-start -->
+
 Junto con la entrega del proyecto, es obligatorio presentar una memoria en formato PDF utilizando la plantilla proporcionada. Esta memoria debe incluir los siguientes apartados:
 
 - <u>Capturas del diseño en Figma</u>: Bocetos para versión escritorio y versión móvil.
@@ -184,13 +190,15 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 - <u>Complicaciones encontradas y soluciones aplicadas</u>: Explica al menos dos problemas reales surgidos durante el desarrollo y cómo los resolviste.
 - <u>Tipografías utilizadas</u>: Especifica el nombre de cada fuente utilizada y su origen (recordatorio: deben estar cargadas localmente y libres de derechos).
 - <u>Plan de pruebas</u>:
-  - Detalla un plan básico de pruebas que hayas realizado para validar el correcto funcionamiento de la web.
-  - Incluye pruebas como:
-    - Visualización en distintos tamaños de pantalla (responsive).
-    - Funcionamiento de enlaces y formularios.
-    - Visualización en varios navegadores (Chrome, Firefox, etc.).
-    - Funcionamiento del menú y del popup de cookies.
-    - Carga correcta de fuentes e imágenes.
+    - Detalla un plan básico de pruebas que hayas realizado para validar el correcto funcionamiento de la web.
+    - Incluye pruebas como:
+        - Visualización en distintos tamaños de pantalla (responsive).
+        - Funcionamiento de enlaces y formularios.
+        - Visualización en varios navegadores (Chrome, Firefox, etc.).
+        - Funcionamiento del menú y del popup de cookies.
+        - Carga correcta de fuentes e imágenes.
+
+<!-- prettier-ignore-end -->
 
 | Criterio                                                | Puntos | Descripción detalla de la puntuación                                                                                                                                          |
 | :------------------------------------------------------ | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
