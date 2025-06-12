@@ -9,11 +9,11 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 <u>**Enunciados disponibles:**</u>
 
-- [x] **Programación**: _Inicios de Septiembre, por confirmar._
-- [x] **MPO - Pyhton**: _Inicios de Septiembre, por confirmar._
-- [x] **Lenguaje de Marcas**: _1 de septiembre a las 23:59_
+- [x] [**Programación**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-programacion-gestion-de-clientes-para-un-negocio): _Inicios de Septiembre, por confirmar._
+- [x] [**MPO - Pyhton**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-mpo-python-generador-de-cuestionarios-interactivo): _Inicios de Septiembre, por confirmar._
+- [x] [**Lenguaje de Marcas**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-lenguaje-de-marcas-sitio-web-responsive): _1 de septiembre a las 23:59_
 - [ ] **Bases de Datos**: _PENDIENTE_
-- [x] **Entornos de desarrollo**: _Inicios de Septiembre, por confirmar._
+- [x] [**Entornos de desarrollo**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-entornos-de-desarrollo-profesionaliza-tu-proyecto-java): _Inicios de Septiembre, por confirmar._
 - [ ] **Sistemas informáticos**: _PENDIENTE_
 - [ ] **IPE**: _PENDIENTE_
 
