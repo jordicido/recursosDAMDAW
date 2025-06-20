@@ -7,7 +7,7 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📚 [**PDF Proyecto Java**](https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view) - Documento PDF del Proyecto 1
+- 📄 [**PDF Proyecto Java**](https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view) - Documento PDF del Proyecto 1
 
 ---
 
@@ -230,8 +230,8 @@ Puedes organizar tu programa en funciones como:
 
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📚 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL) - Documento PDF del Proyecto 1
-- 📚 [**PDF Memoria Proyecto 1 Lenguaje de Marcas**](https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit) - Documento PDF de la Memoria del Proyecto 1
+- 📄 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL) - Documento PDF del Proyecto 1
+- 📄 [**PDF Memoria Proyecto 1 Lenguaje de Marcas**](https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit) - Documento PDF de la Memoria del Proyecto 1
 
 ---
 
@@ -329,17 +329,142 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ---
 
-## 💾 Proyecto 1 Bases de Datos
+## 💾 Proyecto 1 Bases de Datos: BBDD de una universidad
 
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📚 [Proyecto BBDD] - En desarrollo
+- 🔗 [**Enlace al Proyecto de BBDD**](https://app.thepowermba.com/challenges-and-projects/685553c735f33580d83f603f) - enlace al Proyecto 1
+
+---
+
+<u>**Título del Proyecto**</u>
+
+_BBDD de una universidad_
+
+<u>**Enunciado**</u>
+
+Se quiere implementar la BBDD de una universidad concreta, con las siguientes condiciones o requisitos pactados con el cliente:
+
+El personal que se gestionará desde la BBDD serán: profesores, alumnos, personal administrativo, auditores y visitas. No existe otro tipo de personal más allá de estos. Y cada persona sólo puede pertenecer a uno de estos tipos.
+
+Todo personal que accede a la Universidad sea cual sea al grupo al que pertenece, debe identificarse con su DNI, su nombre, apellidos, edad, y todos los teléfonos que quieran proporcionar (pues es imprescindible que estén localizables en todo momento dentro de la instalación, por tanto al menos deben aportar un número de teléfono). De manera opcional se podrá registrar su sexo (“Masculino”, “Femenino” o “Prefiero no indicar nada”).
+
+De los alumnos, además, se desea almacenar la especialidad escogida (que puede ser sólo una de las siguientes opciones: ingenierías, filologías, biologías, medicinas, o humanidades).
+De los profesores se desea conocer también su departamento, y el salario anual (que debe ser mayor que cero, pero nunca superior a 60.000€).
+
+Del personal administrativo, se registrará su especialización (que puede ser cualquiera de las que definan el Ministerio de Educación: recursos humanos, secretariado, legal, pedagógico, …etc).
+De los auditores, sus años de experiencia como auditores, y si trabajan también fuera de la Universidad como auditores o no.
+Todos los profesores imparten alguna de las asignaturas de la Universidad. Y aunque algunos profesores pueden impartir más de una en el mismo curso.
+
+Cada profesor puede pertenecer a varios departamentos. Y algunos años, alguno de estos departamentos se queda sin profesores adscritos.
+Cada asignatura únicamente es impartida por un profesor; y algunas de estas asignaturas tienen a otra como pre-requisito (aunque ni todas las asignaturas son pre-requisitos, ni todas tienen otra como pre-requisito).
+
+De las asignaturas, también se quiere registrar el aula en el que se imparten (cada asignatura tiene, de hecho, un aula asignada por curso). Cada aula, que puede albergar a varias asignaturas, está numerada, pero dicha numeración se repite entre edificios y plantas de dicha Universidad. Ha habido años que alguna aula se ha quedado sin utilizar. Y de algunas aulas, también se conoce:
+
+- su capacidad (en número de alumnos que caben),
+
+- y si tienen tablón de anuncios o no.
+
+Respecto a la matriculación de los alumnos en los exámenes de las convocatorias de las asignaturas, nos indican lo siguiente:
+
+- Las asignaturas tienen desde una convocatoria por curso, hasta 4 (dependiendo de diversas circunstancias).
+
+- Las convocatorias son comunes a varias asignaturas (“diciembre”, “febrero”, etc…), y siempre, al menos, concurre una asignatura; por tanto, también concurre al menos, un alumno.
+
+- Cualquier asignatura que se activa en un curso, tiene al menos un estudiante.
+
+- Los alumnos pueden matricularse hasta en 4 convocatorias por asignatura, y en cada curso, siempre deben estar matriculados de al menos una asignatura, y una convocatoria.
+
+Algunos alumnos, son representantes de otros, a modo de “vocales”, de cara a solicitudes, reclamaciones, etc… Pero, aunque no es obligatorio que todos los alumnos tengan algún representante, si lo tienen, sólo pueden ser representados por uno. Y un alumno no puede ser representante si no tiene asignado ningún alumno como representado.
+A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo como educadores, realizando una auditoría de su desempeño en la impartición de una asignatura concreta. Dichas auditorías las realizan los auditores, con las siguientes características:
+
+- Un auditor puede realizar varias auditorías por curso (aunque puede haber auditores que, en un curso completo, no realicen ninguna auditoría).
+
+- Para que un auditor pueda realizar auditorías de una asignatura concreta, debe haber recibido previamente un curso de orientación en relación con la metodología del departamento al que pertenece la asignatura referida en la auditoría.
+
+- Cada departamento sólo posee un curso de éstos. Y cada curso sólo hace referencia a un departamento.
+
+- Estos cursos, por tanto, cuentan con un identificador único, su nombre vinculado con el del departamento al que se refieren, y el número de horas de dicho curso.
+
+- Y cada departamento tiene un nombre único, y también se conoce sus años de existencia, y el nombre de su primer profesor adscrito.
+
+Además de estas auditorías, la Universidad entrega unos premios al desempeño y resultados de la impartición de una asignatura llevada a cabo por su profesor. Es decir, se premia no sólo al profesor, ni al colectivo relacionado con la asignatura, sino el trabajo, resultados y participación derivados de ese trabajo de impartición de una asignatura por parte de un profesor. Relativo a estos premios, nos indican que:
+
+- Cada impartición, en caso de ser nominada, puede recibir más de un premio.
+
+- Cada premio, puede ser entregado a varias imparticiones.
+
+- Nunca se queda desierto un premio; y por supuesto, no todas las imparticiones reciben premio.
+
+El sistema también debe poder registrar el precio de cada matriculación, sabiendo que ésta depende de cada alumno, de cada asignatura y de cada convocatoria. Es decir, cada alumno que se matricula en cada convocatoria de cada asignatura paga un precio (que depende de factores relativos a: beca, familia numerosa, matrícula de honor en otras asignaturas, precio del crédito ese año, etc…). Pues bien, en la matrícula se precisa registrar tanto ese precio, como la nota final de ese alumno en dicha convocatoria de dicha asignatura.
+
+- Además, el sistema deberá verificar que el precio de la matriculación que paga cada alumno por cada asignatura siempre es mayor que cero.
+
+El sistema debe:
+
+- Permitir modificar los identificadores de: profesores, personal administrativo y visitas; pero no los de los alumnos ni auditores.
+
+- Si por algún motivo desapareciera un Departamento, su curso de orientación, será reasignado al departamento llamado “General”, para no perder dicho contenido.
+
+Cualquier dato que nos hayan pedido registrar en la base de datos descrita en este enunciado, y del que no se indique expresamente su carácter “opcional”, será entendido, por tanto, como un parámetro del que deberemos exigir una existencia obligatoria.
+
+<!-- prettier-ignore-start -->
+
+<u>**Cuestiones para Resolver**</u>
+
+1. Deberemos generar el Diagrama del Modelo Entidad-Relación Extendido.
+
+    1. Identificando entidades y sus respectivos atributos del MER.
+
+    2. Estableciendo las relaciones pertinentes entre las entidades detectadas.
+
+    3. Reflejando extensiones del MER (si existen: MERE).
+
+    4. Añadiendo una leyenda, si procede, dónde se indique cual restricción o regla de funcionamiento de la BBDD, que no haya quedado reflejada en el MER/MERE, pero consideres oportuna poner de relevancia para el diseñador del MR que recibirá este MER/MERE.
+
+    5. Anexar a este diagrama una breve memoria descriptiva, en la que se explique cualquier suposición tomada en cuenta, o cualquier asunción llevada a cabo por el diseñador, justificando adecuadamente dicha suposición (por falta de información, por mejora del diseño, por mayor legibilidad, etc…).
+
+2. Deberemos avanzar el posible código SQL para:
+
+    1. La transformación del MERE en un primer boceto de Modelo Relacional operativo (sin que sea preciso tener en cuenta ningún proceso de normalización). Teniendo en cuenta que sólo será preciso implementar la creación de:
+
+        1. La base de datos.
+
+        2. Las tablas con sus columnas y restricciones propias.
+
+        3. La implementación de la Integridad Referencial derivada de las relaciones marcadas en el MERE que se desprende del enunciado.
+
+        4. Las restricciones de operación de la BBDD, sólo de aquellos triggers que puedan implementarse sin utilizar sentencias “SELECT” en su interior; es decir, aquellos triggers que puedan implementarse únicamente mediante sencillos comandos de control y bucles (IF/ELSE, FOR EACH, …), sin tener que realizar consultas a otras tablas (sino que puedan resolver la restricción realizando las validaciones/verificaciones contra los registros que se están insertando/modificando/borrando (recuerda que podrías utilizar las funciones “NEW” y “OLD”, que hacen referencia a los registros que se están introduciendo, y el que se está intentando modificar, respectivamente).
+
+    2. Para cada una de las demás restricciones que deberíamos incorporar en nuestra implementación (aquellas que precisarían de consultas a otras tablas), simplemente, deja comentado en el código:
+
+        1. Cuáles triggers necesitarías para implementar cuál restricción concreta. Indicando para cada uno:
+
+            1. Ante qué evento se debería activar.
+
+            2. Cuáles serían las comprobaciones/validaciones a realizar en dicho trigger.
+
+            3. Y cuál sería el resultado de su ejecución.
+
+<!-- prettier-ignore-end -->
+
+<u>**Rúbrica de evaluación (EDD)**</u>
+
+| Criterio                                                                                     | Puntos |
+| :------------------------------------------------------------------------------------------- | :----- |
+| Creación del Modelo Entidad-Relación: Reconocimiento de los diferentes elementos del MER.    | 2      |
+| Creación del Modelo Entidad-Relación: Identificación de las relaciones del MER/E.            | 2      |
+| Creación del Modelo Entidad-Relación: Reconocimiento de las diferentes extensiones del MERE. | 3      |
+| Creación del Modelo Relacional: Implementación de tablas y columnas en SQL                   | 1      |
+| Creación del Modelo Relacional: Implementación de la Integridad Referencial.                 | 1      |
+| Creación del Modelo Relacional: Implementación de restricciones adicionales.                 | 1      |
+| **Total**                                                                                    | **10** |
 
 ---
 
 ## ⚙️ Proyecto 1 Entornos de Desarrollo: Profesionaliza tu proyecto Java
 
-<u>Fecha de entrega máxima</u>: PENDIENTE 1 de septiembre a las 23:59
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
 - 📚 [**Enlace al repositorio de Jordi**](https://jordicido.github.io/jordicido-fp/MPO/proyecto1/) - MD del Proyecto 1
 
@@ -467,7 +592,7 @@ void testCalcularPrecio() {
 
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:55
 
-- 📚 [**PDF Proyecto 1 Sistemas Informáticos**](https://drive.google.com/drive/folders/15oLdPWdm-BlKBXMfPYwomb-al1eknTaJ) - Documento PDF del Proyecto 1
+- 📄 [**PDF Proyecto 1 Sistemas Informáticos**](https://drive.google.com/drive/folders/15oLdPWdm-BlKBXMfPYwomb-al1eknTaJ) - Documento PDF del Proyecto 1
 
 ---
 
@@ -534,17 +659,17 @@ Las entregas de trabajos de Evaluación Continua de IPE, a diferencia del resto 
 
 Hasta el momento se han establecido los supuestos a entregar de las siguientes unidades:
 
-- 📚 [**Supuestos Prácticos UNIDAD 2**](https://drive.google.com/file/d/1Ac-N_OOSpb4DU3jI6ksdIHJmS_1gr3zU) - Documento PDF de los supuestos prácticos UNIDAD 2
+- 📄 [**Supuestos Prácticos UNIDAD 2**](https://drive.google.com/file/d/1Ac-N_OOSpb4DU3jI6ksdIHJmS_1gr3zU) - Documento PDF de los supuestos prácticos UNIDAD 2
 
-  <u>Fecha de entrega máxima</u>: Prorrogado: 20 de junio a las 23:59 <small>(Original: 21 de abril a las 23:59)</small>
+  <u>Fecha de entrega máxima</u>: Prorrogado: 24 de junio a las 23:59 <small>(Original: 21 de abril a las 23:59)</small>
 
-- 📚 [**Supuestos Prácticos UNIDAD 3**](https://drive.google.com/file/d/1w7jG1JOYN7A_gQXak1cVf9Vx5B2TyVbP) - Documento PDF de los supuestos prácticos UNIDAD 3
+- 📄 [**Supuestos Prácticos UNIDAD 3**](https://drive.google.com/file/d/1w7jG1JOYN7A_gQXak1cVf9Vx5B2TyVbP) - Documento PDF de los supuestos prácticos UNIDAD 3
 
-  <u>Fecha de entrega máxima</u>: Prorrogado: 20 de junio a las 23:59 <small>(Original: 5 de mayo a las 23:59)</small>
+  <u>Fecha de entrega máxima</u>: Prorrogado: 24 de junio a las 23:59 <small>(Original: 5 de mayo a las 23:59)</small>
 
-- 📚 [**Supuestos Prácticos UNIDAD 4**](https://drive.google.com/file/d/14X7keRh7tT9sBDNaSorip3lEThbFwqzl) - Documento PDF de los supuestos prácticos UNIDAD 4
+- 📄 [**Supuestos Prácticos UNIDAD 4**](https://drive.google.com/file/d/14X7keRh7tT9sBDNaSorip3lEThbFwqzl) - Documento PDF de los supuestos prácticos UNIDAD 4
 
-  <u>Fecha de entrega máxima</u>: 20 de junio a las 23:59
+  <u>Fecha de entrega máxima</u>: Prorrogado: 24 de junio a las 23:59 <small>(Original: 20 de junio a las 23:59)</small>
 
 ---
 

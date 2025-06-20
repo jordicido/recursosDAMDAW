@@ -12,10 +12,10 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 - [x] [**Programación**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-programacion-gestion-de-clientes-para-un-negocio): _1 de septiembre a las 23:59_
 - [x] [**MPO - Pyhton**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-mpo-python-generador-de-cuestionarios-interactivo): _1 de septiembre a las 23:59_
 - [x] [**Lenguaje de Marcas**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-lenguaje-de-marcas-sitio-web-responsive): _1 de septiembre a las 23:59_
-- [ ] **Bases de Datos**: _PENDIENTE: 1 de septiembre a las 23:59_
+- [x] [**Bases de Datos**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-bases-de-datos-bbdd-de-una-universidad): _1 de septiembre a las 23:59_
 - [x] [**Entornos de desarrollo**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-entornos-de-desarrollo-profesionaliza-tu-proyecto-java): _1 de septiembre a las 23:59_
 - [x] [**Sistemas informáticos**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-sistemas-informaticos-maquinas-virtuales): _1 de septiembre a las 23:55_
-- [x] [**IPE (Supuestos)**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#supuestos-ipe-i):  _Prorrogados a 20 de junio a las 23:59_
+- [x] [**IPE (Supuestos)**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#supuestos-ipe-i): _Prorrogados a 24 de junio a las 23:59_
 
 ---
 
@@ -47,7 +47,7 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 > Última actualización: Junio 2025
 
-    - Se ha añadido los enunciados de las evaluaciones continuas de Programación y Lenguaje de Marcas.
+    - Se ha añadido los enunciados de las evaluaciones continuas que faltaban (ya están todas).
     - Se han añadido las tablas con el reparto de horas en semestre/unidades didacticas.
     - Se ha modificado el Index
 
