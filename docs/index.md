@@ -9,13 +9,13 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 <u>**Enunciados disponibles:**</u>
 
-- [x] **Programación**: _1 de septiembre a las 23:59_
-- [x] **MPO - Pyhton**: _1 de septiembre a las 23:59_
-- [x] **Lenguaje de Marcas**: _1 de septiembre a las 23:59_
-- [ ] **Bases de Datos**: _1 de septiembre a las 23:59_
-- [x] **Entornos de desarrollo**: _1 de septiembre a las 23:59_
+- [x] [**Programación**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-programacion-gestion-de-clientes-para-un-negocio): _1 de septiembre a las 23:59_
+- [x] [**MPO - Pyhton**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-mpo-python-generador-de-cuestionarios-interactivo): _1 de septiembre a las 23:59_
+- [x] [**Lenguaje de Marcas**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-lenguaje-de-marcas-sitio-web-responsive): _1 de septiembre a las 23:59_
+- [ ] **Bases de Datos**: _PENDIENTE: 1 de septiembre a las 23:59_
+- [x] [**Entornos de desarrollo**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-entornos-de-desarrollo-profesionaliza-tu-proyecto-java): _1 de septiembre a las 23:59_
 - [x] **Sistemas informáticos**: _1 de septiembre a las 23:55_
-- [x] **IPE (Supuestos)**: _Prorrogados a 20 de junio a las 23:59_
+- [x] **IPE (Supuestos)**:  _Prorrogados a 20 de junio a las 23:59_
 
 ---
 
