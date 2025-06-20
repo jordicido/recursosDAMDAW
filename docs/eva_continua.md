@@ -5,9 +5,9 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 ## ☕ Proyecto 1 Programacion: Gestión de Clientes para un Negocio
 
-<u>Fecha de entrega máxima</u>: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📄 [**PDF Proyecto Java**](https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view) - Documento PDF del Proyecto 1
+- 📚 [**PDF Proyecto Java**](https://drive.google.com/file/d/1aFklNGRnEcgMVphxF-FxWJMZGCPLCzRv/view) - Documento PDF del Proyecto 1
 
 ---
 
@@ -110,12 +110,128 @@ Cada opción abre un submenú con sus propias opciones (alta, baja, listado...).
 
 ---
 
+## 🐍 Proyecto 1 MPO | Python: Generador de Cuestionarios Interactivo
+
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
+
+- 📚 [**Enlace al repositorio de Jordi**](https://jordicido.github.io/jordicido-fp/MPO/proyecto1/) - MD del Proyecto 1
+
+---
+
+<u>**Título del Proyecto**</u>
+
+_Generador de Cuestionarios Interactivo_
+
+<u>**Objetivo del proyecto**</u>
+
+Desarrollar una aplicación de consola en Python que permita realizar cuestionarios tipo test. El usuario podrá responder a una serie de preguntas, y el programa corregirá automáticamente las respuestas, mostrando la puntuación obtenida al finalizar.
+
+<u>**Requisitos funcionales mínimos**</u>
+
+Tu aplicación deberá permitir:
+
+<!-- prettier-ignore-start -->
+
+1. Implementar un menú que se ejecute indefinidamente hasta que el usuario finalice, que permita las siguientes opciones:
+
+   ```markdown
+   ### MENÚ
+
+   1. Empezar cuestionario
+   2. Ranking (opcional)
+   3. Salir
+   ```
+
+2. Mostrar una serie de preguntas una a una al usuario.
+
+3. Cada pregunta debe tener:
+
+   - Enunciado de la pregunta.
+   - Cuatro opciones de respuesta.
+   - Una única opción correcta.
+
+4. El usuario debe poder introducir su respuesta (por ejemplo: A, B, C o D).
+
+5. El programa debe indicar si la respuesta es correcta o incorrecta.
+
+6. Al finalizar el test, debe mostrar:
+
+   - Número total de preguntas.
+   - Número de aciertos.
+   - Porcentaje de aciertos.
+   - Una valoración final (por ejemplo: “¡Muy bien!”, “Necesitas practicar”, etc.).
+
+<!-- prettier-ignore-end -->
+
+<u>**Contenidos del módulo que se aplican**</u>
+
+- Tipos de datos primitivos y estructuras complejas (listas, diccionarios).
+- Control de flujo (if, elif, else).
+- Bucles (for, while).
+- Funciones con parámetros y retorno.
+- Entrada/salida de datos por consola.
+
+<u>**Estructura sugerida del programa**</u>
+
+Puedes organizar tu programa en funciones como:
+
+- cargar_preguntas() → Devuelve una lista de preguntas (pueden estar "hardcodeadas" al principio).
+- mostrar_pregunta(pregunta) → Muestra la pregunta y sus opciones.
+- obtener_respuesta() → Pide al usuario su respuesta y la valida.
+- corregir_respuesta(respuesta, correcta) → Comprueba si es correcta.
+- mostrar_resultados(aciertos, total) → Muestra el resumen final.
+
+<u>**Ejemplo de estructura de una pregunta (diccionario)**</u>
+
+```python
+{
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": ["A. Madrid", "B. Roma", "C. París", "D. Berlín"],
+    "respuesta_correcta": "C"
+}
+```
+
+<u>**Extras (para subir nota o como ampliación)**</u>
+
+- Leer las preguntas desde un archivo .json o .txt (puedes usar el módulo json para leer la información .json y la función open() para los archivos .txt).
+- Guardar los resultados del usuario (nombre y puntuación) en un fichero.
+- Permitir elegir entre distintos temas o niveles de dificultad.
+- Tiempo límite para cada pregunta.
+- Sistema de ranking de usuarios.
+
+<u>**Fases de trabajo sugeridas**</u>
+
+1. Diseño del modelo de datos: ¿Cómo guardarás las preguntas?
+2. Estructura básica del programa: Flujo general y funciones principales.
+3. Implementación: Desarrollo progresivo de funciones.
+4. Pruebas y validación: Comprobar que todo funcione correctamente.
+5. Mejoras y presentación: Añadir extras, limpiar código, comentarios, etc.
+
+<u>**Rúbrica de evaluación (orientativa)**</u>
+
+| Criterio                            | Puntos |
+| :---------------------------------- | :----- |
+| Funcionalidad básica completa       | 4      |
+| Uso correcto de funciones           | 2      |
+| Uso adecuado de listas/diccionarios | 2      |
+| Legibilidad y buenas prácticas      | 2      |
+| **Total**                           | **10** |
+
+<u>**Consejos finales**</u>
+
+- Comienza por lo básico y ve añadiendo funcionalidades poco a poco.
+- Prueba tu código frecuentemente para detectar errores a tiempo.
+- Utiliza comentarios para explicar partes complejas del código.
+- No dudes en pedir ayuda si te atascas en algún punto.
+
+---
+
 ## 🖥️ Proyecto 1 Lenguaje de Marcas: Sitio web responsive
 
 <u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📚 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL)
-- 📚 [**PDF Memoria Proyecto 1 Lenguaje de Marcas**](https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit)
+- 📚 [**PDF Proyecto 1 Lenguaje de Marcas**](https://drive.google.com/drive/folders/1tX0kKLEfBH9th5pZi_s4y0Dru68gxVYL) - Documento PDF del Proyecto 1
+- 📚 [**PDF Memoria Proyecto 1 Lenguaje de Marcas**](https://docs.google.com/document/d/15HnSuzQCUhGg9k8H6D9BY0ri7_GtCwHZ/edit) - Documento PDF de la Memoria del Proyecto 1
 
 ---
 
@@ -215,17 +331,17 @@ Junto con la entrega del proyecto, es obligatorio presentar una memoria en forma
 
 ## 💾 Proyecto 1 Bases de Datos
 
-<u>Fecha de entrega máxima</u>: PENDIENTE
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:59
 
-- 📄 [Proyecto BBDD] - En desarrollo
+- 📚 [Proyecto BBDD] - En desarrollo
 
 ---
 
 ## ⚙️ Proyecto 1 Entornos de Desarrollo: Profesionaliza tu proyecto Java
 
-<u>Fecha de entrega máxima</u>: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
+<u>Fecha de entrega máxima</u>: PENDIENTE 1 de septiembre a las 23:59
 
-- 📄 [**Enlace al repositorio de Jordi**](https://jordicido.github.io/jordicido-fp/MPO/proyecto1/) - MD del Proyecto 1
+- 📚 [**Enlace al repositorio de Jordi**](https://jordicido.github.io/jordicido-fp/MPO/proyecto1/) - MD del Proyecto 1
 
 ---
 
@@ -347,132 +463,132 @@ void testCalcularPrecio() {
 
 ---
 
-## 🐍 Proyecto 1 MPO | Python: Generador de Cuestionarios Interactivo
+## 🖥️ Proyecto 1 Sistemas Informáticos: Máquinas Virtuales
 
-<u>Fecha de entrega máxima</u>: PENDIENTE (Inicio Septiembre - Fecha por determinar aún)
+<u>Fecha de entrega máxima</u>: 1 de septiembre a las 23:55
 
-- 📄 [**Enlace al repositorio de Jordi**](https://jordicido.github.io/jordicido-fp/MPO/proyecto1/) - MD del Proyecto 1
+- 📚 [**PDF Proyecto 1 Sistemas Informáticos**](https://drive.google.com/drive/folders/15oLdPWdm-BlKBXMfPYwomb-al1eknTaJ) - Documento PDF del Proyecto 1
 
 ---
 
-<u>**Título del Proyecto**</u>
+**<u>Descripción general</u>**
 
-_Generador de Cuestionarios Interactivo_
+En este proyecto montarse pideás un pequeño laboratorio de máquinas virtuales que recrea, de forma sencilla, un entorno cliente-servidor real: desplegaremos un servidor Windows, un PC Ubuntu, un equipo con arranque dual y un host Proxmox, dejando constancia de la configuración y de la gestión básica de usuarios y recursos.
 
-<u>**Objetivo del proyecto**</u>
+**<u>Objetivo del trabajo</u>**
 
-Desarrollar una aplicación de consola en Python que permita realizar cuestionarios tipo test. El usuario podrá responder a una serie de preguntas, y el programa corregirá automáticamente las respuestas, mostrando la puntuación obtenida al finalizar.
+El objetivo de este trabajo es que el alumno investigue, comprenda y realice la práctica basándose en el temario impartido en las clases del primer semestre.
 
-<u>**Requisitos funcionales mínimos**</u>
+**<u>Formato de entrega</u>**
 
-Tu aplicación deberá permitir:
+Documento de texto (Word, pdf, Google Docs, etc.) o en formato presentación (PowerPoint, Google Slides, etc.).
+Extensión: A determinar por el propio alumno (sugerencia: 8-12 páginas, sin contar portada y bibliografía).
+Se valorará la claridad en la exposición, la correcta utilización de la terminología, la capacidad de síntesis y la justificación de los puntos solicitados mas abajo.
 
 <!-- prettier-ignore-start -->
 
-1. Implementar un menú que se ejecute indefinidamente hasta que el usuario finalice, que permita las siguientes opciones:
+**<u>Secciones del trabajo</u>**
 
-   ```markdown
-   ### MENÚ
+1. Creación de MV Server (4p)
+    1. S.0 Windows server 2022
+        1. Disco duro 1o: alojara el S.O, Denominado C:
+        2. Recursos de la MV según capacidad de equipo de cada alumno(correctamente evidenciado)
 
-   1. Empezar cuestionario
-   2. Ranking (opcional)
-   3. Salir
-   ```
+    2. Nombre de la Mv DAM o DAW y nombre del alumno DAMPACO
 
-2. Mostrar una serie de preguntas una a una al usuario.
+    3. Creación de usuarios y grupos dentro del AD
+        1. Lolo grupo (RRHH)
+        2. Jaime grupo (CONTABILIDAD)
+        3. Pedro (SIA)
 
-3. Cada pregunta debe tener:
+2. Creación de Mv Desktop (Ubuntu) (4p)
+    1. Debe llamarse PC+apellido del alumno ejemplo PCmartinez
 
-   - Enunciado de la pregunta.
-   - Cuatro opciones de respuesta.
-   - Una única opción correcta.
+    2. Debe Crear usuarios por consola y directorio personal
+        1. Mercedes grupo (RRHH)
+        2. Fer grupo (CONTABILIDAD)
+        3. Mario (SIA)
+        4. Contraseñas de 12 Digitos y que la contraseña
+        5. Obligacion de cambiar contraseña cada 60 dias
 
-4. El usuario debe poder introducir su respuesta (por ejemplo: A, B, C o D).
+    3. creación de grupos
+        1. (RRHH)
+        2. (CONTABILIDAD)
+        3. (SIA)
 
-5. El programa debe indicar si la respuesta es correcta o incorrecta.
+3. Crear una Arranque DUAL en una MV(1p)
+    1. En la misma MV Debe estar montado dos sistemas operativos un Windows+Ubuntu y en el arranque nos muestre la opción de cual elegir
 
-6. Al finalizar el test, debe mostrar:
-
-   - Número total de preguntas.
-   - Número de aciertos.
-   - Porcentaje de aciertos.
-   - Una valoración final (por ejemplo: “¡Muy bien!”, “Necesitas practicar”, etc.).
+4. Crear MV Proxmox (1p) (Según practicas realizadas en aula )
+    1. DD con 60GB
+    2. Subir una imagen a su directorio de Debian
+    3. Crear una MV llamada DebianDAMDAW
 
 <!-- prettier-ignore-end -->
 
-<u>**Contenidos del módulo que se aplican**</u>
+---
 
-- Tipos de datos primitivos y estructuras complejas (listas, diccionarios).
-- Control de flujo (if, elif, else).
-- Bucles (for, while).
-- Funciones con parámetros y retorno.
-- Entrada/salida de datos por consola.
+## 💼 Supuestos IPE-I
 
-<u>**Estructura sugerida del programa**</u>
+Las entregas de trabajos de Evaluación Continua de IPE, a diferencia del resto de asignaturas, no se realizan divididas en dos grandes proyectos, en su lugar, se ha de realizar un supuesto práctico individual por cada unidad vista en clases (salvo la unidad 1).
 
-Puedes organizar tu programa en funciones como:
+Hasta el momento se han establecido los supuestos a entregar de las siguientes unidades:
 
-- cargar_preguntas() → Devuelve una lista de preguntas (pueden estar "hardcodeadas" al principio).
-- mostrar_pregunta(pregunta) → Muestra la pregunta y sus opciones.
-- obtener_respuesta() → Pide al usuario su respuesta y la valida.
-- corregir_respuesta(respuesta, correcta) → Comprueba si es correcta.
-- mostrar_resultados(aciertos, total) → Muestra el resumen final.
+- 📚 [**Supuestos Prácticos UNIDAD 2**](https://drive.google.com/file/d/1Ac-N_OOSpb4DU3jI6ksdIHJmS_1gr3zU) - Documento PDF de los supuestos prácticos UNIDAD 2
 
-<u>**Ejemplo de estructura de una pregunta (diccionario)**</u>
+  <u>Fecha de entrega máxima</u>: Prorrogado: 20 de junio a las 23:59 <small>(Original: 21 de abril a las 23:59)</small>
 
-```python
-{
-    "pregunta": "¿Cuál es la capital de Francia?",
-    "opciones": ["A. Madrid", "B. Roma", "C. París", "D. Berlín"],
-    "respuesta_correcta": "C"
-}
-```
+- 📚 [**Supuestos Prácticos UNIDAD 3**](https://drive.google.com/file/d/1w7jG1JOYN7A_gQXak1cVf9Vx5B2TyVbP) - Documento PDF de los supuestos prácticos UNIDAD 3
 
-<u>**Extras (para subir nota o como ampliación)**</u>
+  <u>Fecha de entrega máxima</u>: Prorrogado: 20 de junio a las 23:59 <small>(Original: 5 de mayo a las 23:59)</small>
 
-- Leer las preguntas desde un archivo .json o .txt (puedes usar el módulo json para leer la información .json y la función open() para los archivos .txt).
-- Guardar los resultados del usuario (nombre y puntuación) en un fichero.
-- Permitir elegir entre distintos temas o niveles de dificultad.
-- Tiempo límite para cada pregunta.
-- Sistema de ranking de usuarios.
+- 📚 [**Supuestos Prácticos UNIDAD 4**](https://drive.google.com/file/d/14X7keRh7tT9sBDNaSorip3lEThbFwqzl) - Documento PDF de los supuestos prácticos UNIDAD 4
 
-<u>**Fases de trabajo sugeridas**</u>
-
-1. Diseño del modelo de datos: ¿Cómo guardarás las preguntas?
-2. Estructura básica del programa: Flujo general y funciones principales.
-3. Implementación: Desarrollo progresivo de funciones.
-4. Pruebas y validación: Comprobar que todo funcione correctamente.
-5. Mejoras y presentación: Añadir extras, limpiar código, comentarios, etc.
-
-<u>**Rúbrica de evaluación (orientativa)**</u>
-
-| Criterio                            | Puntos |
-| :---------------------------------- | :----- |
-| Funcionalidad básica completa       | 4      |
-| Uso correcto de funciones           | 2      |
-| Uso adecuado de listas/diccionarios | 2      |
-| Legibilidad y buenas prácticas      | 2      |
-| **Total**                           | **10** |
-
-<u>**Consejos finales**</u>
-
-- Comienza por lo básico y ve añadiendo funcionalidades poco a poco.
-- Prueba tu código frecuentemente para detectar errores a tiempo.
-- Utiliza comentarios para explicar partes complejas del código.
-- No dudes en pedir ayuda si te atascas en algún punto.
+  <u>Fecha de entrega máxima</u>: 20 de junio a las 23:59
 
 ---
 
-## 💼 Proyecto 1 IPE-I
+<!-- prettier-ignore-start -->
 
-<u>Fecha de entrega máxima</u>: PENDIENTE
+**<u>Supuesto Práctico Individual UNIDAD 2</u>**
 
-- 📄 [Proyecto IPE-I] - En desarrollo
+1. ¿Cuáles son los principales riesgos derivados de los lugares de trabajo?
 
----
+2. ¿Qué es un equipo de trabajo?
 
-## 🖥️ Proyecto 1 Sistemas Informáticos
+3. ¿Cuáles son las principales causas de los accidentes eléctricos en el trabajo?
 
-<u>Fecha de entrega máxima</u>: PENDIENTE
+4. ¿Qué factores contribuyen a la aparición de trastornos musculoesqueléticos en el trabajo?
 
-- 📄 [Proyecto Sistemas Informáticos] - En desarrollo
+5. ¿Qué es el estrés laboral y cuáles son sus principales causas?
+
+6. Describe tres conductas que pueden ser consideradas como acoso psicológico en el trabajo.
+
+    <small>Se entregará en formato PDF y el diseño es libre.</small>
+
+**<u>Supuesto Práctico Individual UNIDAD 3</u>**
+
+En España, cada comunidad autónoma regula dónde deben instalarse los DEA/DESA y quién está autorizado para utilizarlos.
+Cada vez más CCAA están legislando para instalar DEA/DESA en lugares de gran afluencia, como en centros comerciales, piscinas, gimnasios, edificios de oficinas, etc.
+
+Consulta en la red información sobre estos desfibriladores y contesta a las siguientes preguntas:
+
+1. ¿Puede utilizarlos cualquier persona que no sea personal sanitario? En caso negativo, ¿quién puede usarlo?
+
+2. ¿Cuál es el procedimiento básico de uso de un DESA o DEA?
+
+    <small>Se entregará en formato PDF y el diseño es libre.</small>
+
+**<u>Supuesto Práctico Individual UNIDAD 4</u>**
+
+1. Según el Texto Refundido del Estatuto de los Trabajadores, las personas trabajadoras autónomas y los transportistas y agentes comerciales por cuenta propia no están incluidos en las relaciones laborales. ¿Por qué motivo?
+
+2. Las condiciones de trabajo que se pretenden pactar en un convenio colectivo contradicen las normas de una ley orgánica aprobada por las Cortes. ¿Qué principio jurídico sobre aplicación de las normas laborales debemos aplicar? ¿Qué finalidad tiene dicho principio?
+
+3. Cita las principales fuentes externas del derecho del trabajo. Determina cuál de ellas son directamente aplicables y las que deban ratificarse por las Cortes Generales.
+
+4. La Unión Europea exige que las condiciones de trabajo deban ser “armonizadas” en todos los estados miembros. ¿Significa esto que las condiciones laborales deben ser las mismas en estos países? Argumenta tu respuesta.
+
+    <small>Se entregará en formato PDF y el diseño es libre.</small>
+
+<!-- prettier-ignore-end -->
