@@ -14,8 +14,8 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 - [x] [**Lenguaje de Marcas**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-lenguaje-de-marcas-sitio-web-responsive): _1 de septiembre a las 23:59_
 - [ ] **Bases de Datos**: _PENDIENTE: 1 de septiembre a las 23:59_
 - [x] [**Entornos de desarrollo**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-entornos-de-desarrollo-profesionaliza-tu-proyecto-java): _1 de septiembre a las 23:59_
-- [x] **Sistemas informáticos**: _1 de septiembre a las 23:55_
-- [x] **IPE (Supuestos)**:  _Prorrogados a 20 de junio a las 23:59_
+- [x] [**Sistemas informáticos**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#proyecto-1-sistemas-informaticos-maquinas-virtuales): _1 de septiembre a las 23:55_
+- [x] [**IPE (Supuestos)**](https://jordicido.github.io/recursosDAMDAW/eva_continua/#supuestos-ipe-i):  _Prorrogados a 20 de junio a las 23:59_
 
 ---
 
