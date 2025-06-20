@@ -9,13 +9,13 @@ La primera entrega de actividades está prevista para principios de septiembre; 
 
 <u>**Enunciados disponibles:**</u>
 
-- [x] **Programación**: _Inicios de Septiembre, por confirmar._
-- [x] **MPO - Pyhton**: _Inicios de Septiembre, por confirmar._
+- [x] **Programación**: _1 de septiembre a las 23:59_
+- [x] **MPO - Pyhton**: _1 de septiembre a las 23:59_
 - [x] **Lenguaje de Marcas**: _1 de septiembre a las 23:59_
-- [ ] **Bases de Datos**: _PENDIENTE_
-- [x] **Entornos de desarrollo**: _Inicios de Septiembre, por confirmar._
-- [ ] **Sistemas informáticos**: _PENDIENTE_
-- [ ] **IPE**: _PENDIENTE_
+- [ ] **Bases de Datos**: _1 de septiembre a las 23:59_
+- [x] **Entornos de desarrollo**: _1 de septiembre a las 23:59_
+- [x] **Sistemas informáticos**: _1 de septiembre a las 23:55_
+- [x] **IPE (Supuestos)**: _Prorrogados a 20 de junio a las 23:59_
 
 ---
 
