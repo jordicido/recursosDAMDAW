@@ -21,12 +21,10 @@ _Ejemplo: Sistema de Gestión para una Pajarería_
 
 ```java
 public class Cliente {
-    private String
-            nombre; private
-    String dni; private
-    String telefono;
-    private String
-            email;
+    private String nombre; 
+    private String dni; 
+    private String telefono;
+    private String email;
     // Constructor, getters y setters
 }
 ```
@@ -35,10 +33,9 @@ public class Cliente {
 
 ```java
 public class Pajaro {
-    private String
-            especie; private
-    String color; private
-    double precio;
+    private String especie; 
+    private String color; 
+    private double precio;
     // Constructor, getters y setters
 }
 ```
@@ -47,10 +44,9 @@ public class Pajaro {
 
 ```java
 public class Venta {
-    private Cliente
-            cliente;
-    private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene
-    varios pájaros private String fecha;
+    private Cliente cliente;
+    private ArrayList<Pajaro> lineasDeVenta; // cada venta contiene varios pájaros private 
+    String fecha;
     // Constructor, método para añadir pájaros, calcular total, etc.
 }
 ```
