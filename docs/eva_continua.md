@@ -339,29 +339,35 @@ _BBDD de una universidad_
 
 <u>**Enunciado**</u>
 
+*NOTA: Aparecen en negrita entidades; subrayados atributos; entre corchetes el concepto a representar.*
+
 Se quiere implementar la BBDD de una universidad concreta, con las siguientes condiciones o requisitos pactados con el cliente:
 
-El personal que se gestionará desde la BBDD serán: profesores, alumnos, personal administrativo, auditores y visitas. No existe otro tipo de personal más allá de estos. Y cada persona sólo puede pertenecer a uno de estos tipos.
+El personal que se gestionará desde la BBDD serán: **profesores, alumnos, personal administrativo, auditores y visitas**. No existe otro tipo de personal más allá de estos. Y cada persona sólo puede pertenecer a uno de estos tipos. **\[ISA\]**
 
-Todo personal que accede a la Universidad sea cual sea al grupo al que pertenece, debe identificarse con su DNI, su nombre, apellidos, edad, y todos los teléfonos que quieran proporcionar (pues es imprescindible que estén localizables en todo momento dentro de la instalación, por tanto al menos deben aportar un número de teléfono). De manera opcional se podrá registrar su sexo (“Masculino”, “Femenino” o “Prefiero no indicar nada”).
+Todo personal que accede a la Universidad sea cual sea al grupo al que pertenece, debe identificarse con su <u>DNI, su nombre, apellidos, edad</u>, y **todos los teléfonos** que quieran proporcionar (pues es imprescindible que estén localizables en todo momento dentro de la instalación, por tanto al menos deben aportar un número de teléfono). De manera opcional se podrá registrar su <u>sexo</u> (“Masculino”, “Femenino” o “Prefiero no indicar nada”).
 
-De los alumnos, además, se desea almacenar la especialidad escogida (que puede ser sólo una de las siguientes opciones: ingenierías, filologías, biologías, medicinas, o humanidades).
-De los profesores se desea conocer también su departamento, y el salario anual (que debe ser mayor que cero, pero nunca superior a 60.000€).
+De los alumnos, además, se desea almacenar la <u>especialidad</u> escogida (que puede ser sólo una de las siguientes opciones: ingenierías, filologías, biologías, medicinas, o humanidades).
 
-Del personal administrativo, se registrará su especialización (que puede ser cualquiera de las que definan el Ministerio de Educación: recursos humanos, secretariado, legal, pedagógico, …etc).
-De los auditores, sus años de experiencia como auditores, y si trabajan también fuera de la Universidad como auditores o no.
-Todos los profesores imparten alguna de las asignaturas de la Universidad. Y aunque algunos profesores pueden impartir más de una en el mismo curso.
+De los profesores se desea conocer también su **departamento**, y el <u>salario anual</u> (que debe ser mayor que cero, pero nunca superior a 60.000€).
 
-Cada profesor puede pertenecer a varios departamentos. Y algunos años, alguno de estos departamentos se queda sin profesores adscritos.
-Cada asignatura únicamente es impartida por un profesor; y algunas de estas asignaturas tienen a otra como pre-requisito (aunque ni todas las asignaturas son pre-requisitos, ni todas tienen otra como pre-requisito).
+Del personal administrativo, se registrará su **especialización** (que puede ser cualquiera de las que definan el Ministerio de Educación: recursos humanos, secretariado, legal, pedagógico, …etc).
 
-De las asignaturas, también se quiere registrar el aula en el que se imparten (cada asignatura tiene, de hecho, un aula asignada por curso). Cada aula, que puede albergar a varias asignaturas, está numerada, pero dicha numeración se repite entre edificios y plantas de dicha Universidad. Ha habido años que alguna aula se ha quedado sin utilizar. Y de algunas aulas, también se conoce:
+De los auditores, <u>sus años de experiencia como auditores</u>, y <u>si trabajan también fuera de la Universidad como auditores o no</u>.
 
-- su capacidad (en número de alumnos que caben),
+Todos los profesores imparten alguna de las **asignaturas** de la Universidad. Y algunos profesores pueden impartir más de una en el mismo curso.
 
-- y si tienen tablón de anuncios o no.
+Cada profesor puede pertenecer a varios **departamentos**. Y algunos años, alguno de estos departamentos se queda sin profesores adscritos.
 
-Respecto a la matriculación de los alumnos en los exámenes de las convocatorias de las asignaturas, nos indican lo siguiente:
+Cada asignatura únicamente es impartida por un profesor; y algunas de estas asignaturas tienen a otra como pre-requisito (aunque ni todas las asignaturas son pre-requisitos, ni todas tienen otra como pre-requisito). **\[Relación Reflexiva\]**
+
+De las asignaturas, también se quiere registrar el **aula** en el que se imparten (cada asignatura tiene, de hecho, un aula asignada por curso) **\[Relación Débil\]**. Cada aula, que puede albergar a varias asignaturas, está <u>numerada</u>, pero dicha numeración se repite entre edificios y plantas de dicha Universidad. Ha habido años que alguna aula se ha quedado sin utilizar. Y de algunas aulas, también se conoce:
+
+- su <u>capacidad</u> (en número de alumnos que caben),
+
+- y <u>si tienen tablón de anuncios o no</u>.
+
+Respecto a la matriculación de los alumnos en los exámenes de las **convocatorias** de las asignaturas, nos indican lo siguiente: **\[Relación Ternaria\]**
 
 - Las asignaturas tienen desde una convocatoria por curso, hasta 4 (dependiendo de diversas circunstancias).
 
@@ -371,20 +377,21 @@ Respecto a la matriculación de los alumnos en los exámenes de las convocatoria
 
 - Los alumnos pueden matricularse hasta en 4 convocatorias por asignatura, y en cada curso, siempre deben estar matriculados de al menos una asignatura, y una convocatoria.
 
-Algunos alumnos, son representantes de otros, a modo de “vocales”, de cara a solicitudes, reclamaciones, etc… Pero, aunque no es obligatorio que todos los alumnos tengan algún representante, si lo tienen, sólo pueden ser representados por uno. Y un alumno no puede ser representante si no tiene asignado ningún alumno como representado.
-A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo como educadores, realizando una auditoría de su desempeño en la impartición de una asignatura concreta. Dichas auditorías las realizan los auditores, con las siguientes características:
+Algunos alumnos, son representantes de otros, a modo de “vocales”, de cara a solicitudes, reclamaciones, etc… Pero, aunque no es obligatorio que todos los alumnos tengan algún representante, si lo tienen, sólo pueden ser representados por uno. Y un alumno no puede ser representante si no tiene asignado ningún alumno como representado. **\[Relación Reflexiva\]**
+
+A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo como educadores, realizando una auditoría de su desempeño en la impartición de una asignatura concreta 🔗[**\[Agregación – ver clase semana 25, última diapositiva\]**](https://app.thepower.education/programs/67864132c099c00bc4372f72/modules/679baf223995890bc17d2ac3/lessons/679baf223995890bc17d2ac4/microlearnings/6853e105176ef30d078a9039). Dichas auditorías las realizan los **auditores**, con las siguientes características:
 
 - Un auditor puede realizar varias auditorías por curso (aunque puede haber auditores que, en un curso completo, no realicen ninguna auditoría).
 
-- Para que un auditor pueda realizar auditorías de una asignatura concreta, debe haber recibido previamente un curso de orientación en relación con la metodología del departamento al que pertenece la asignatura referida en la auditoría.
+- Para que un auditor pueda realizar auditorías de la impartición concreta de una asignatura por un profe, debe haber recibido previamente un **curso de orientación** en relación con la metodología del departamento al que pertenece la asignatura referida en la auditoría. **\[Restricción Exclusividad/Exclusión o Inclusividad/Inclusión\]**
 
 - Cada departamento sólo posee un curso de éstos. Y cada curso sólo hace referencia a un departamento.
 
-- Estos cursos, por tanto, cuentan con un identificador único, su nombre vinculado con el del departamento al que se refieren, y el número de horas de dicho curso.
+- Estos cursos, por tanto, cuentan con un <u>identificador único</u>, su <u>nombre</u> vinculado con el del departamento al que se refieren, y el <u>número de horas</u> de dicho curso.
 
-- Y cada departamento tiene un nombre único, y también se conoce sus años de existencia, y el nombre de su primer profesor adscrito.
+- Y cada departamento tiene un <u>nombre único</u>, y también se conoce sus <u>años de existencia</u>, y el <u>nombre de su primer profesor adscrito</u>.
 
-Además de estas auditorías, la Universidad entrega unos premios al desempeño y resultados de la impartición de una asignatura llevada a cabo por su profesor. Es decir, se premia no sólo al profesor, ni al colectivo relacionado con la asignatura, sino el trabajo, resultados y participación derivados de ese trabajo de impartición de una asignatura por parte de un profesor. Relativo a estos premios, nos indican que:
+Además de estas auditorías, la Universidad entrega unos **premios** al desempeño y resultados de la impartición de una asignatura llevada a cabo por su profesor. Es decir, se premia no sólo al profesor, ni al colectivo relacionado con la asignatura, sino el trabajo, resultados y participación derivados de ese trabajo de impartición de una asignatura por parte de un profesor. Relativo a estos premios, nos indican que: 🔗[**\[Agregación – ver clase semana 25, última diapositiva\]**](https://app.thepower.education/programs/67864132c099c00bc4372f72/modules/679baf223995890bc17d2ac3/lessons/679baf223995890bc17d2ac4/microlearnings/6853e105176ef30d078a9039)
 
 - Cada impartición, en caso de ser nominada, puede recibir más de un premio.
 
@@ -392,15 +399,15 @@ Además de estas auditorías, la Universidad entrega unos premios al desempeño 
 
 - Nunca se queda desierto un premio; y por supuesto, no todas las imparticiones reciben premio.
 
-El sistema también debe poder registrar el precio de cada matriculación, sabiendo que ésta depende de cada alumno, de cada asignatura y de cada convocatoria. Es decir, cada alumno que se matricula en cada convocatoria de cada asignatura paga un precio (que depende de factores relativos a: beca, familia numerosa, matrícula de honor en otras asignaturas, precio del crédito ese año, etc…). Pues bien, en la matrícula se precisa registrar tanto ese precio, como la nota final de ese alumno en dicha convocatoria de dicha asignatura.
+El sistema también debe poder registrar el <u>precio</u> de cada matriculación, sabiendo que ésta depende de cada alumno, de cada asignatura y de cada convocatoria. Es decir, cada alumno que se matricula en cada convocatoria de cada asignatura paga un precio (que depende de factores relativos a: beca, familia numerosa, matrícula de honor en otras asignaturas, precio del crédito ese año, etc…). Pues bien, en la matrícula se precisa registrar tanto ese precio, como la <u>nota final</u> de ese alumno en dicha convocatoria de dicha asignatura. **\[Relación Ternaria\]**
 
 - Además, el sistema deberá verificar que el precio de la matriculación que paga cada alumno por cada asignatura siempre es mayor que cero.
 
 El sistema debe:
 
-- Permitir modificar los identificadores de: profesores, personal administrativo y visitas; pero no los de los alumnos ni auditores.
+- Permitir modificar los identificadores de: profesores, personal administrativo y visitas; pero no los de los alumnos ni auditores. **\[Restricciones del modelo Relacional\]**
 
-- Si por algún motivo desapareciera un Departamento, su curso de orientación, será reasignado al departamento llamado “General”, para no perder dicho contenido.
+- Si por algún motivo desapareciera un Departamento, su curso de orientación, será reasignado al departamento llamado “General”, para no perder dicho contenido. **\[Restricciones del modelo Relacional\]**
 
 Cualquier dato que nos hayan pedido registrar en la base de datos descrita en este enunciado, y del que no se indique expresamente su carácter “opcional”, será entendido, por tanto, como un parámetro del que deberemos exigir una existencia obligatoria.
 
@@ -408,7 +415,7 @@ Cualquier dato que nos hayan pedido registrar en la base de datos descrita en es
 
 <u>**Cuestiones para Resolver**</u>
 
-1. Deberemos generar el Diagrama del Modelo Entidad-Relación Extendido.
+1. **Deberemos generar el Diagrama del Modelo Entidad-Relación Extendido.**
 
     1. Identificando entidades y sus respectivos atributos del MER.
 
@@ -420,7 +427,7 @@ Cualquier dato que nos hayan pedido registrar en la base de datos descrita en es
 
     5. Anexar a este diagrama una breve memoria descriptiva, en la que se explique cualquier suposición tomada en cuenta, o cualquier asunción llevada a cabo por el diseñador, justificando adecuadamente dicha suposición (por falta de información, por mejora del diseño, por mayor legibilidad, etc…).
 
-2. Deberemos avanzar el posible código SQL para:
+2. **Deberemos avanzar el posible código SQL para:**
 
     1. La transformación del MERE en un primer boceto de Modelo Relacional operativo (sin que sea preciso tener en cuenta ningún proceso de normalización). Teniendo en cuenta que sólo será preciso implementar la creación de:
 
