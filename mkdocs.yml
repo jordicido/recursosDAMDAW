@@ -1,0 +1,50 @@
+site_name: Recursos DAM/DAW
+site_url: https://jordicido.github.io/recursosDAMDAW
+
+nav:
+  - Java: java/index.md
+  - Python: Python/index.md
+  - Lenguajes de marcas: "Lenguajes de Marcas y Sistemas de Gestión de la Información/index.md"
+  - Bases de datos:  "Bases de Datos/index.md"
+  - Entornos de desarrollo: "Entornos de Desarrollo/index.md"
+  - Sistemas informáticos: "Sistemas Informáticos/index.md"
+  - Itinerario Personal para la Empleabilidad: "Itinerario Personal para la Empleabilidad/index.md"
+  - 📊 Evaluación Continua: "eva_continua.md"
+  - 🏆 Certificaciones y Formación Complementaria: "Certificaciones y Formación Complementaria/index.md"
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: lime
+      accent: yellow
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: lime
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
