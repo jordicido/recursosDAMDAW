@@ -379,7 +379,7 @@ Respecto a la matriculación de los alumnos en los exámenes de las **convocator
 
 Algunos alumnos, son representantes de otros, a modo de “vocales”, de cara a solicitudes, reclamaciones, etc… Pero, aunque no es obligatorio que todos los alumnos tengan algún representante, si lo tienen, sólo pueden ser representados por uno. Y un alumno no puede ser representante si no tiene asignado ningún alumno como representado. **\[Relación Reflexiva\]**
 
-A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo como educadores, realizando una auditoría de su desempeño en la impartición de una asignatura concreta **\[Agregación – ver clase semana 25, última diapositiva\]**. Dichas auditorías las realizan los **auditores**, con las siguientes características:
+A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo como educadores, realizando una auditoría de su desempeño en la impartición de una asignatura concreta 🔗[**\[Agregación – ver clase semana 25, última diapositiva\]**](https://app.thepower.education/programs/67864132c099c00bc4372f72/modules/679baf223995890bc17d2ac3/lessons/679baf223995890bc17d2ac4/microlearnings/6853e105176ef30d078a9039). Dichas auditorías las realizan los **auditores**, con las siguientes características:
 
 - Un auditor puede realizar varias auditorías por curso (aunque puede haber auditores que, en un curso completo, no realicen ninguna auditoría).
 
@@ -391,7 +391,7 @@ A algunos de los profesores, en algunas ocasiones, se les evalúa su trabajo com
 
 - Y cada departamento tiene un <u>nombre único</u>, y también se conoce sus <u>años de existencia</u>, y el <u>nombre de su primer profesor adscrito</u>.
 
-Además de estas auditorías, la Universidad entrega unos **premios** al desempeño y resultados de la impartición de una asignatura llevada a cabo por su profesor. Es decir, se premia no sólo al profesor, ni al colectivo relacionado con la asignatura, sino el trabajo, resultados y participación derivados de ese trabajo de impartición de una asignatura por parte de un profesor. Relativo a estos premios, nos indican que: **\[Agregación – ver clase semana 25, última diapositiva\]**
+Además de estas auditorías, la Universidad entrega unos **premios** al desempeño y resultados de la impartición de una asignatura llevada a cabo por su profesor. Es decir, se premia no sólo al profesor, ni al colectivo relacionado con la asignatura, sino el trabajo, resultados y participación derivados de ese trabajo de impartición de una asignatura por parte de un profesor. Relativo a estos premios, nos indican que: 🔗[**\[Agregación – ver clase semana 25, última diapositiva\]**](https://app.thepower.education/programs/67864132c099c00bc4372f72/modules/679baf223995890bc17d2ac3/lessons/679baf223995890bc17d2ac4/microlearnings/6853e105176ef30d078a9039)
 
 - Cada impartición, en caso de ser nominada, puede recibir más de un premio.
 
